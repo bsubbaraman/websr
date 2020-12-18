@@ -1,0 +1,2029 @@
+1 The Ray Model of Light
+
+Ads for the latest Macintosh computer brag that it can do an arithmetic calculation in less time than it takes for the light to get from the screen to your eye. We find this impressive because of the contrast between the speed of light and the speeds at which we interact with physical objects in our environment. Perhaps it shouldn’t surprise us, then, that Newton succeeded so well in explaining the motion of objects, but was far less successful with the study of light.
+
+This textbook series is billed as the Light and Matter series, but only now, in the fifth of the six volumes, are we ready to focus on light. If you are reading the series in order, then you know that the climax of our study of electricity and magnetism was discovery that light is an electromagnetic wave. Knowing this, however, is not the same as knowing everything about eyes and telescopes. In fact, the full description of light as a wave can be rather cumbersome. We will instead spend most of this book making use of a simpler model of light, the ray model, which does a fine job in most practical situations. Not only that, but we will even backtrack a little and start with a discussion of basic ideas about light and vision that predated the discovery of electromagnetic waves. Research in physics eduction has shown conclusively that the mere assertion that light is an electromagnetic wave is woefully insufficient to allow a student to interpret ordinary phenomena involving light.
+
+11
+
+1.1 The Nature of Light
+
+The cause and effect relationship in vision
+
+Despite its title, this chapter is far from your first look at light. That familiarity might seem like an advantage, but most people have never thought carefully about light and vision. Even smart people who have thought hard about vision have come up with incorrect ideas. The ancient Greeks, Arabs and Chinese had theories of light and vision, all of which were mostly wrong, and all of which were accepted for thousands of years.
+
+One thing the ancients did get right is that there is a distinction between objects that emit light and objects that don’t. When you see a leaf in the forest, it’s because three different objects are doing their jobs: the leaf, the eye, and the sun. But luminous objects like the sun, a flame, or the filament of a light bulb can be seen by the eye without the presence of a third object. Emission of light is often, but not always, associated with heat. In modern times, we are familiar with a variety of objects that glow without being heated, including fluorescent lights and glow-in-the-dark toys.
+
+How do we see luminous objects? The Greek philosophers Pythagoras (b. ca. 560 BC) and Empedocles of Acragas (b. ca. 492 BC), who unfortunately were very influential, claimed that when you looked at a candle flame, the flame and your eye were both sending out some kind of mysterious stuff, and when your eye’s stuff collided with the candle’s stuff, the candle would become evident to your sense of sight.
+
+Bizarre as the Greek “collision of stuff theory” might seem, it had a couple of good features. It explained why both the candle and your eye had to be present for your sense of sight to function. The theory could also easily be expanded to explain how we see nonluminous objects. If a leaf, for instance, happened to be present at the site of the collision between your eye’s stuff and the candle’s stuff, then the leaf would be stimulated to express its green nature, allowing you to perceive it as green.
+
+Modern people might feel uneasy about this theory, since it suggests that greenness exists only for our seeing convenience, implying a human precedence over natural phenomena. Nowadays, people would expect the cause and effect relationship in vision to be the other way around, with the leaf doing something to our eye rather than our eye doing something to the leaf. But how can you tell? The most common way of distinguishing cause from effect is to determine which happened first, but the process of seeing seems to occur too quickly to determine the order in which things happened. Certainly there is no obvious time lag between the moment when you move your head and the moment when your reflection in the mirror moves.
+
+Today, photography provides the simplest experimental evidence that nothing has to be emitted from your eye and hit the leaf in order to make it “greenify.” A camera can take a picture of a leaf even if there are no eyes anywhere nearby. Since the leaf appears green regardless of whether it is being sensed by a camera, your eye, or an insect’s eye, it seems to make more sense to say that the leaf’s greenness is the cause, and something happening in the camera or eye is the effect.
+
+12
+
+Chapter 1
+
+The Ray Model of Light
+
+
+
+
+
+Light is a thing, and it travels from one point to another.
+
+Another issue that few people have considered is whether a candle’s flame simply affects your eye directly, or whether it sends out light which then gets into your eye. Again, the rapidity of the effect makes it difficult to tell what’s happening. If someone throws a rock at you, you can see the rock on its way to your body, and you can tell that the person affected you by sending a material substance your way, rather than just harming you directly with an arm motion, which would be known as “action at a distance.” It is not easy to do a similar observation to see whether there is some “stuff” that travels from the candle to your eye, or whether it is a case of action at a distance.
+
+4
+
+
+
+Light from a candle is bumped off course by a piece of glass. Inserting the glass causes the apparent location of the candle to shift. The same effect can be produced by taking off your eyeglasses and looking at what you see in the lens, but a flat piece of glass works just as well as a lens for this purpose.
+
+Newtonian physics includes both action at a distance (e.g. the earth’s gravitational force on a falling object) and contact forces such as the normal force, which only allow distant objects to exert forces on each other by shooting some substance across the space between them (e.g. a garden hose spraying out water that exerts a force on a bush).
+
+One piece of evidence that the candle sends out stuff that travels to your eye is that intervening transparent substances can make the candle appear to be in the wrong location, suggesting that light is a thing that can be bumped off course. Many people would dismiss this kind of observation as an optical illusion, however. (Some optical illusions are purely neurological or psychological effects, although some others, including this one, turn out to be caused by the behavior of light itself.)
+
+A more convincing way to decide in which category light belongs is to find out if it takes time to get from the candle to your eye; in Newtonian physics, action at a distance is supposed to be instantaneous. The fact that we speak casually today of “the speed of light” implies that at some point in history, somebody succeeded in showing that light did not travel infinitely fast. Galileo tried, and failed, to detect a finite speed for light, by arranging with a person in a distant tower to signal back and forth with lanterns. Galileo uncovered his lantern, and when the other person saw the light, he uncovered his lantern. Galileo was unable to measure any time lag that was significant compared to the limitations of human reflexes.
+
+Section 1.1
+
+The Nature of Light
+
+13
+
+
+
+The first person to prove that light’s speed was finite, and to determine it numerically, was Ole Roemer, in a series of measurements around the year 1675. Roemer observed Io, one of Jupiter’s moons, over a period of several years. Since Io presumably took the same amount of time to complete each orbit of Jupiter, it could be thought of as a very distant, very accurate clock. A practical and accurate pendulum clock had recently been invented, so Roemer could check whether the ratio of the two clocks’ cycles, about 42.5 hours to 1 orbit, stayed exactly constant or changed a little. If the process of seeing the distant moon was instantaneous, there would be no reason for the two to get out of step. Even if the speed of light was finite, you might expect that the result would be only to offset one cycle relative to the other. The earth does not, however, stay at a constant distance from Jupiter and its moons. Since the distance is changing gradually due to the two planets’ orbit motions, a finite speed of light would make the “Io clock” appear to run faster as the planets drew near each other, and more slowly as their separation increased. Roemer did find a variation in the apparent speed of Io’s orbits, which caused Io’s eclipses by Jupiter (the moments when Io passed in front of or behind Jupiter) to occur about 7 minutes early when the earth was closest to Jupiter, and 7 minutes late when it was farthest. Based on these measurements, Roemer estimated the speed of light to be approximately 2x10s m/s, which is in the right ballpark compared to modern measurements of 3x10s m/s. (I’m not sure whether the fairly large experimental error was mainly due to imprecise knowledge of the radius of the earth’s orbit or limitations in the reliability of pendulum clocks.)
+
+Light can travel through a vacuum.
+
+Many people are confused by the relationship between sound and light. Although we use different organs to sense them, there are some similarities. For instance, both light and sound are typically emitted in all directions by their sources. Musicians even use visual metaphors like “tone color,” or “a bright timbre” to describe sound. One way to see that they are clearly different phenomena is to note their very different velocities. Sure, both are pretty fast compared to a flying arrow or a galloping horse, but as we have seen, the speed of light is so great as to appear instantaneous in most situations. The speed of sound, however, can easily be observed just by watching a group of schoolchildren a hundred feet away as they clap their hands to a song. There is an obvious delay between when you see their palms come together and when you hear the clap.
+
+The fundamental distinction between sound and light is that sound is an oscillation in air pressure, so it requires air (or some other medium such as water) in which to travel. Today, we know that outer space is a vacuum, so the fact that we get light from the sun, moon and stars clearly shows that air is not necessary for the propagation of light. Also, a light bulb has a near vacuum inside, but that does not prevent the light from getting out. (The reason why the air is pumped out of light bulbs is to keep the oxygen from reacting violently with the hot filament and destroying it.)
+
+Discussion Questions
+
+A. If you observe thunder and lightning, you can tell how far away the storm is. Do you need to know the speed of sound, of light, or of both?
+
+B. When phenomena like X-rays and cosmic rays were first discovered, suggest a way one could have tested whether they were forms of light.
+
+C. Why did Roemer only need to know the radius of the earth’s orbit, not Jupiter’s, in order to find the speed of light?
+
+Chapter 1 The Ray Model of Light
+
+
+
+14
+
+
+
+1.2 Interaction of Light with Matter
+
+
+
+specular reflection
+
+
+
+diffuse reflection
+
+(a) Diffuse and specular reflection.
+
+Absorption of light
+
+The reason why the sun feels warm on your skin is that the sunlight is being absorbed, and the light energy is being transformed into heat energy. The same happens with artificial light, so the net result of leaving a light turned on is to heat the room. It doesn’t matter whether the source of the light is hot, like the sun, a flame, or an incandescent light bulb, or cool, like a fluorescent bulb. (If your house has electric heat, then there is absolutely no point in fastidiously turning off lights in the winter; the lights will help to heat the house at the same dollar rate as the electric heater.)
+
+This process of heating by absorption is entirely different from heating by thermal conduction, as when an electric stove heats spaghetti sauce through a pan. Heat can only be conducted through matter, but there is vacuum between us and the sun, or between us and the filament of an incandescent bulb. Also, heat conduction can only transfer heat energy from a hotter object to a colder one, but a cool fluorescent bulb is perfectly capable of heating something that had already started out being warmer than the bulb itself.
+
+How we see nonluminous objects
+
+Not all the light energy that hits an object is transformed into heat. Some is reflected, and this leads us to the question of how we see nonluminous objects. If you ask the average person how we see a light bulb, the most likely answer is “The light bulb makes light, which hits our eyes.” But if you ask how we see a book, they are likely to say “The bulb lights up the room, and that lets me see the book.” All mention of light actually entering our eyes has mysteriously disappeared.
+
+Most people would disagree if you told them that light was reflected from the book to the eye, because they think of reflection as something that mirrors do, not something that a book does. They associate reflection with the formation of a reflected image, which does not seem to appear in a piece of paper.
+
+Imagine that you are looking at your reflection in a nice smooth piece of aluminum foil, fresh off the roll. You perceive a face, not a piece of metal. Perhaps you also see the bright reflection of a lamp over your shoulder behind you. Now imagine that the foil is just a little bit less smooth. The different parts of the image are now a little bit out of alignment with each other. Your brain can still recognize a face and a lamp, but it’s a little scrambled, like a Picasso painting. Now suppose you use a piece of aluminum foil that has been crumpled up and then flattened out again. The parts of the image are so scrambled that you cannot recognize an image. Instead, your brain tells you you’re looking at a rough, silvery surface.
+
+Mirrorlike reflection at a specific angle is known as specular reflection, and random reflection in many directions is called diffuse reflection.
+
+Diffuse reflection is how we see nonluminous objects. Specular reflection only allows us to see images of objects other than the one doing the reflecting. In top part of figure (a), imagine that the rays of light are coming from the sun. If you are looking down at the reflecting surface, there is no way for your eye-brain system to tell that the rays are not really coming from a sun down below you.
+
+Section 1.2 Interaction of Light with Matter
+
+15
+
+
+
+
+
+Figure (b) shows another example of how we can’t avoid the conclusion that light bounces off of things other than mirrors. The lamp is one I have in my house. It has a bright bulb, housed in a completely opaque bowlshaped metal shade. The only way light can get out of the lamp is by going up out of the top of the bowl. The fact that I can read a book in the position shown in the figure means that light must be bouncing off of the ceiling, then bouncing off of the book, then finally getting to my eye.
+
+This is where the shortcomings of the Greek theory of vision become glaringly obvious. In the Greek theory, the light from the bulb and my mysterious “eye rays” are both supposed to go to the book, where they collide, allowing me to see the book. But we now have a total of four objects: lamp, eye, book, and ceiling. Where does the ceiling come in? Does it also send out its own mysterious “ceiling rays,” contributing to a threeway collision at the book? That would just be too bizarre to believe!
+
+The differences among white, black, and the various shades of grey in between is a matter of how what percentage of the light they absorb and what percentage they reflect. That’s why light-colored clothing is more comfortable in the summer, and light-colored upholstery in a car stays cooler that dark upholstery.
+
+Numerical measurement of the brightness of light
+
+We have already seen that the physiological sensation of loudness relates to the sound’s intensity (power per unit area), but is not directly proportional to it. If sound A has an intensity of 1 nW/m2, sound B is 10 nW/m2, and sound C is 100 nW/m2, then the increase in loudness from C to B is perceived to be the same as the increase from A to B, not ten times greater. That is, the sensation of loudness if logarithmic.
+
+The same is true for the brightness of light. Brightness is related to power per unit area, but the relationship is a logarithmic one rather than a proportionality. For doing physics, it’s the power per unit area that we’re interested in. The relevant SI unit is W/m2, although various non-SI units are still used in photography, for example. One way to determine the brightness of light is to measure the increase in temperature of a black object exposed to the light. The light energy is being converted to heat energy, and the amount of heat energy absorbed in a given amount of time can be related to the power absorbed, using the known heat capacity of the object. More practical devices for measuring light intensity, such as the light meters built into some cameras, are based on the conversion of light into electrical energy, but these meters have to be calibrated somehow against heat measurements.
+
+Discussion questions
+
+— _
+
+winter
+
+►
+
+►
+
+►
+
+Discussion question C.
+
+summer
+
+
+
+A. The curtains in a room are drawn, but a small gap lets light through, illuminating a spot on the floor. It may or may not also be possible to see the beam of sunshine crossing the room, depending on the conditions. What’s going on?
+
+B. Laser beams are made of light. In science fiction movies, laser beams are often shown as bright lines shooting out of a laser gun on a spaceship. Why is this scientifically incorrect?
+
+C. A documentary filmmaker went to Harvard’s 1987 graduation ceremony and asked the graduates, on camera, to explain the cause of the seasons. Only two out of 23 were able to give a correct explanation, but you now have all the information needed to figure it out for yourself, assuming you didn’t already know. The figure shows the earth in its winter and summer positions relative to
+
+Chapter 1 The Ray Model of Light
+
+16
+
+
+
+the sun. Hint: Consider the units used to measure the brightness of light, and recall that the sun is lower in the sky in winter, so its rays are coming in at a shallower angle.
+
+1.3 The Ray Model of Light
+
+Models of light
+
+Note how I’ve been casually diagramming the motion of light with pictures showing light rays as lines on the page. More formally, this is known as the ray model of light. The ray model of light seems natural once we convince ourselves that light travels through space, and observe phenomena like sunbeams coming through holes in clouds. Having already been introduced to the concept of light as an electromagnetic wave, you know that the ray model is not the ultimate truth about light, but the ray model is simpler, and in any case science always deals with models of reality, not the ultimate nature of reality. The following table summarizes three models of light.
+
+ray model
+
+-*
+
+->
+
+>
+
+Advantage: Simplicity.
+
+wave model
+
+
+
+Advantage: Color is described naturally in terms of wavelength. Required in order to explain the interaction of light with material objects with sizes comparable to a wavelength of light or smaller.
+
+particle model
+
+Required in order to explain the interaction of light with individual atoms. At the atomic level, it becomes apparent that a beam of light has a certain graininess to it.
+
+The ray model is essentially a generic one. By using it we can discuss the path taken by the light, without committing ourselves to any specific description of what it is that is moving along that path. We will use the nice simple ray model for most of this book, and with it we can analyze a great many devices and phenomena. Not until the last chapter will we concern ourselves specifically with wave optics, although in the intervening chapters I will sometimes analyze the same phenomenon using both the ray model and the wave model.
+
+Note that the statements about the applicability of the various models are only rough guides. For instance, wave interference effects are often detectable, if small, when light passes around an obstacle that is quite a bit
+
+Section 1.3 The Ray Model of Light
+
+17
+
+
+
+
+
+bigger than a wavelength. Also, the criterion for when we need the particle model really has more to do with energy scales than distance scales, although the two turn out to be related.
+
+The alert reader may have noticed that the wave model is required at scales smaller than a wavelength of light (on the order of a micrometer for visible light), and the particle model is demanded on the atomic scale or lower (a typical atom being a nanometer or so in size). This implies that at the smallest scales we need both the wave model and the particle model. They appear incompatible, so how can we simultaneously use both? The answer is that they are not as incompatible as they seem. Light is both a wave and a particle, but a full understanding of this apparently nonsensical statement is a topic for the following book in this series.
+
+Ray diagrams
+
+Without even knowing how to use the ray model to calculate anything numerically, we can learn a great deal by drawing ray diagrams. For instance, if you want to understand how eyeglasses help you to see in focus, a ray diagram is the right place to start. Many students underutilize ray diagrams in optics and instead rely on rote memorization or plugging into formulas. The trouble with memorization and plug-ins is that they can obscure what’s really going on, and it is easy to get them wrong. Often the best plan is to do a ray diagram first, then do a numerical calculation, then check that your numerical results are in reasonable agreement with what you expected from the ray diagram.
+
+Examples (a) through (c) show some guidelines for using ray diagrams effectively. The light rays bend when then pass out through the surface of the water (a phenomenon that we’ll discuss in more detail later). The rays appear to have come from a point above the goldfish’s actual location, an
+
+
+
+Examples of ray diagrams.
+
+18
+
+Chapter 1
+
+The Ray Model of Light
+
+
+
+
+
+(b) Incorrect: implies that diffuse reflection only gives one ray from each reflecting point.
+
+
+
+(c) Correct, but unnecessarily complicated.
+
+effect that is familiar to people who have tried spearfishing.
+
+• A stream of light is not really confined to a finite number of narrow
+
+lines. We just draw it that way. In (a), it has been necessary to choose a finite number of rays to draw (five), rather than the theoretically infinite number of rays that will diverge from that point.
+
+• There is a tendency to conceptualize rays incorrectly as objects. In his
+
+Optics, Newton goes out of his way to caution the reader against this, saying that some people “consider... the refraction of... rays to be the bending or breaking of them in their passing out of one medium into another.” But a ray is a record of the path traveled by light, not a physical thing that can be bent or broken.
+
+• In theory, rays may continue infinitely far into the past and future, but
+
+we need to draw lines of finite length. In (a), a judicious choice has been made as to where to begin and end the rays. There is no point in continuing the rays any farther than shown, because nothing new and exciting is going to happen to them. There is also no good reason to start them earlier, before being reflected by the fish, because the direction of the diffusely reflected rays is random anyway, and unrelated to the direction of the original, incoming ray.
+
+• When representing diffuse reflection in a ray diagram, many students
+
+have a mental block against drawing many rays fanning out from the same point. Often, as in example (b), the problem is the misconception that light can only be reflected in one direction from one point.
+
+• Another difficulty associated with diffuse reflection, example (c), is the
+
+tendency to think that in addition to drawing many rays coming out of one point, we should also be drawing many rays coming from many points. In (a), drawing many rays coming out of one point gives useful information, telling us, for instance, that the fish can be seen from any angle. Drawing many sets of rays, as in (c), does not give us any more useful information, and just clutters up the picture in this example. The only reason to draw sets of rays fanning out from more than one point would be if different things were happening to the different sets.
+
+Discussion Question
+
+Suppose an intelligent tool-using fish is spearhunting for humans. Draw a ray diagram to show how the fish has to correct its aim. Note that although the rays are now passing from the air to the water, the same rules apply: the rays are closer to being perpendicular to the surface when they are in the water, and rays that hit the air-water interface at a shallow angle are bent the most.
+
+Section 1.3 The Ray Model of Light
+
+19
+
+
+
+1.4 Geometry of Specular Reflection
+
+
+
+To change the motion of a material object, we use a force. Is there any way to exert a force on a beam of light? Experiments show that electric and magnetic fields do not deflect light beams, so apparently light has no electric charge. Light also has no mass, so until the twentieth century it was believed to be immune to gravity as well. Einstein predicted that light beams would be very slightly deflected by strong gravitational fields, and he was proven correct by observations of rays of starlight that came close to the sun, but obviously that’s not what makes mirrors and lenses work!
+
+If we investigate how light is reflected by a mirror, we will find that the process is horrifically complex, but the final result is surprisingly simple. What actually happens is that the light is made of electric and magnetic fields, and these fields accelerate the electrons in the mirror. Energy from the light beam is momentarily transformed into extra kinetic energy of the electrons, but because the electrons are accelerating the reradiate more light, converting their kinetic energy back into light energy. We might expect this to result in a very chaotic situation, but amazingly enough, the electrons move together to produce a new, reflected beam of light, which obeys two simple rules:
+
+• The angle of the reflected ray is the same as that of the incident ray.
+
+• The reflected ray lies in the plane containing the incident ray and the normal (perpendicular) line. This plane is known as the plane of incidence.
+
+The two angles can be defined either with respect to the normal, like angles B and C in the figure, or with respect to the reflecting surface, like angles A and D. There is a convention of several hundred years’ standing that one measures the angles with respect to the normal, but the rule about equal angles can logically be stated either as B=C or as A=D.
+
+The phenomenon of reflection occurs only at the boundary between two media, just like the change in the speed of light that passes from one medium to another.
+
+Most people are surprised by the fact that light can be reflected back into a less dense medium. For instance, if you are diving and you look up at the surface of the water, you will see a reflection of yourself.
+
+Reversibility of light rays
+
+The fact that specular reflection displays equal angles of incidence and reflection means that there is a symmetry: if the ray had come in from the right instead of the left in the figure above, the angles would have looked exactly the same. This is not just a pointless detail about specular reflection. It’s a manifestation of a very deep and important fact about nature, which is that the laws of physics do not distinguish between past and future. Cannonballs and planets have trajectories that are equally natural in reverse, and so do light rays. This type of symmetry is called time-reversal symmetry.
+
+20
+
+Chapter 1 The Ray Model of Light
+
+
+
+
+
+Typically, time-reversal symmetry is a characteristic of any process that does not involve heat. For instance, the planets do not experience any friction as they travel through empty space, so there is no frictional heating. We should thus expect the time-reversed versions of their orbits to obey the laws of physics, which they do. In contrast, a book sliding across a table does generate heat from friction as it slows down, and it is therefore not surprising that this type of motion does not appear to obey time-reversal symmetry. A book lying still on a flat table is never observed to spontaneously start sliding, sucking up heat energy and transforming it into kinetic energy.
+
+Similarly, the only situation we’ve observed so far where light does not obey time-reversal symmetry is absorption, which involves heat. Your skin absorbs visible light from the sun and heats up, but we never observe people’s skin to glow, converting heat energy into visible light. People’s skin does glow in infrared light, but that doesn’t mean the situation is symmetric. You never absorb infrared and emit visible light.
+
+
+
+Discussion Questions
+
+A. If a light ray has a velocity vector with components cx and cy, what will happen when it is reflected from a surface in the y-z plane? Make sure your answer does not imply a change in the ray’s speed.
+
+B. Radar works by bouncing radio waves off of objects and inferring the distance to the object from the time delay of the reflected “echo.” As we’ve discussed in book 4, radio waves are really a form of light whose “color” is just way off the red end of the visible rainbow. The stealth bomber is flat on the bottom. How does this make the plane harder to detect with radar?
+
+C. Three pieces of sheet metal arranged perpendicularly as shown in the figure form what is known as a radar corner. Explain why a radio ray that strikes it from any angle is guaranteed to go straight back and be detected. You may want to start by considering the case where the ray comes in parallel to one of the planes, in which case the problem can be treated two-dimensionally. For the full three-dimensional case, it may be helpful to consider the three components of the radio ray’s velocity vector.
+
+Section 1.4 Geometry of Specular Reflection
+
+21
+
+1.5* The Principle of Least Time for Reflection
+
+
+
+The solid lines are physically possible paths for ight rays traveling from A to B and from Ato C. They obey the principle of least time. The dashed lines do not obey the principle of least time, and are not physically possible.
+
+B
+
+
+
+C
+
+Paths AQB and APB are two conceivable paths that a ray could travel to get from A to Bwith one reflection, but only AQB is physically possible. We wish to prove that path AQB, with equal angles of incidence and reflection, is shorter than any other path, such as APB. The trick is to contruct a third point, C, lying as far below the surface as B lies above it. Then path AQC is a straight line whose length is the same as AQB, and path APC has the same length as path APB. Since AQC is straight, it must be shorter than any other path such as APC that connects A and C, and therefore AQB must be shorter than any path such as APB.
+
+We had to choose between an unwieldy explanation of reflection at the atomic level and a simpler geometric description that was not as fundamental. There is a third approach to describing the interaction of light and matter which is very deep and beautiful. Emphasized by the twentiethcentury physicist Richard Feynman, it is called the principle of least time.
+
+Let’s start with the motion of light that is not interacting with matter at all. In a vacuum, a light ray moves in a straight line. This can be rephrased as follows: a light ray in vacuum that moves from point A to point B follows the path that takes the shortest time.
+
+What about reflection? If light is going to go from one point to another, being reflected on the way, the quickest path is indeed the one with equal angles of incidence and reflection. If the starting and ending points are equally far from the reflecting surface, as shown in the top panel of the figure, it’s not hard to convince yourself that this is true, just based on symmetry. There is also a tricky and simple proof, shown in the bottom panel of the figure, for the more general case where the points are at different distances from the surface.
+
+Not only does the principle of least time work for light in a vacuum and light undergoing reflection, we will also see in a later chapter that it works for the bending of light when it passes from one medium into another.
+
+Although it is beautiful that the laws concerning the motion of light can be reduced to one simple rule, the principle of least time, it may seem a little spooky to speak as if the ray of light is intelligent, and has carefully planned ahead to find the shortest route to its destination. How does it know in advance where it’s going? What if we moved the mirror while the light was en route, so conditions along its planned path were not what it “expected”? The answer is that the principle of least time is really a shortcut for finding certain results of the wave model of light, which is the topic of the last chapter of this book.
+
+22
+
+Chapter 1 The Ray Model of Light
+
+
+
+
+
+Summary
+
+Selected Vocabulary
+
+absorption what happens when light hits matter and gives up some of its energy
+
+reflection what happens when light hits matter and bounces off, retaining at least
+
+some of its energy
+
+specular reflection reflection from a smooth surface, in which the light ray leaves at the same
+
+angle at which it came in
+
+diffuse reflection reflection from a rough surface, in which a single ray of light is divided up
+
+into many weaker reflected rays going in many directions
+
+Notation
+
+c the speed of light
+
+Summary
+
+We can understand many phenomena involving light without having to use sophisticated models such as the wave model or the particle model. Instead, we simply describe light according to the path it takes, which
+
+we call a ray. The ray model of light is useful when light is interacting with material objects that are much
+
+larger than a wavelength of light. Since a wavelength of visible light is so short compared to the human scale of existence, the ray model is useful in many practical cases.
+
+We see things because light comes from them to our eyes. Objects that glow may send light directly to our eyes, but we see an object that doesn’t glow via light from another source that has been reflected by the object.
+
+Many of the interactions of light and matter can be understood by considering what happens when light reaches the boundary between two different substances. In this situation, part of the light is reflected (bounces back) and part passes on into the new medium. This is not surprising — it is typical behavior for a wave, and light is a wave. Light energy can also be absorbed by matter, i.e. converted into heat.
+
+A smooth surface produces specular reflection, in which the reflected ray exits at the same angle with respect to the normal as that of the incoming ray. A rough surface gives diffuse reflection, where a single ray of light is divided up into many weaker reflected rays going in many directions.
+
+Summary
+
+23
+
+
+
+
+
+Homework Problems
+
+1. Draw a ray diagram showing why a small light source (a candle, say) produces sharper shadows than a large one (e.g. a long fluorescent bulb).
+
+2. A Global Positioning System (GPS) receiver is a device that lets you figure out where you are by exchanging radio signals with satellites. It works by measuring the round-trip time for the signals, which is related to the distance between you and the satellite. By finding the ranges to several different satellites in this way, it can pin down your location in three dimensions to within a few meters. How accurate does the measurement of the time delay have to be to determine your position to this accuracy?
+
+3. Estimate the frequency of an electromagnetic wave whose wavelength is similar in size to an atom (about a nm). Referring back to book 4, in what part of the electromagnetic spectrum would such a wave lie (infrared, gamma-rays,...)?
+
+4. The Stealth bomber is designed with flat, smooth surfaces. Why would this make it difficult to detect via radar?
+
+5. The large figure shows a curved (parabolic) mirror, with three parallel light rays coming toward it. One ray is approaching along the mirror’s center line, (a) Trace the drawing accurately, and continue the light rays until they exit the diagram again on the right. What do you notice? (b) Make up an example of a practical use for this device, (c) How could you use this mirror with a small lightbulb to produce a parallel beam of light rays going off to the right?
+
+
+
+S A solution is given in the back of the book. * A difficult problem. y A computerized answer check is available. I A problem that requires calculus.
+
+24
+
+Chapter 1 The Ray Model of Light
+
+
+
+
+
+Breakfast Table, by Willem Claesz. de Heda, 17th century. A variety of images occur in the painting, some distorted, as a result of both reflection and refraction (ch. 4).
+
+2 Images by Reflection, Part I
+
+Infants are always fascinated by the antics of the Baby in the Mirror. Now if you want to know something about mirror images that most people don’t understand, try this. First bring this page and closer to your eyes, until you can no longer focus on it without straining. Then go in the bathroom and see how close you can get your face to the surface of the mirror before you can no longer easily focus on the image of your own eyes. You will find that the shortest comfortable eye-mirror distance is much less than the shortest comfortable eye-paper distance. This demonstrates that the image of your face in the mirror acts as if it had depth and existed in the space behind the mirror. If the image was like a flat picture in a book, then you wouldn’t be able to focus on it from such a short distance.
+
+In this chapter we will study the images formed by flat and curved mirrors on a qualitative, conceptual basis. Although this type of image is not as commonly encountered in everyday life as images formed by lenses, images formed by reflection are simpler to understand, so we discuss them first. In chapter 3 we will turn to a more mathematical treatment of images made by reflection. Surprisingly, the same equations can also be applied to lenses, which are the topic of chapter 4.
+
+25
+
+
+
+2.1 A Virtual Image
+
+We can understand a mirror image using a ray diagram. The figure shows several light rays, a, that originated by diffuse reflection at the person’s nose. They bounce off the mirror, producing new rays, b. To anyone whose eye is in the right position to get one of these rays, they appear to have come from a behind the mirror, c, where they would have originated from a single point. This point is where the tip of the imageperson’s nose appears to be. A similar analysis applies to every other point on the person’s face, so it looks as though there was an entire face behind the mirror. The customary way of describing the situation requires some explanation:
+
+Customary description in physics: There is an image of the face behind the mirror.
+
+Translation: The pattern of rays coming from the mirror is exactly the same as it would be if there was a face behind the mirror. Nothing is really behind the mirror.
+
+This is referred to as a virtual image, because the rays do not actually cross at the point behind the mirror. They only appear to have originated there.
+
+Self-Check
+
+Imagine that the person in figure (a) moves his face down quite a bit — a couple of feet in real life, or a few inches on this scale drawing. Draw a new ray diagram. Will there still be an image? If so, where is it visible from?
+
+The geometry of specular reflection tells us that rays a and b are at equal angles to the normal (the imaginary perpendicular line piercing the mirror at the point of reflection). This means that ray b’s imaginary continuation, c, forms the same angle with the mirror as ray a. Since each ray of type c forms the same angles with the mirror as its partner of type a, we see that the distance of the image from the mirror is the same as the actual face from the mirror, and lies directly across from it. The image therefore appears to be the same size as the actual face.
+
+Discussion Question
+
+The figure shows an object that is off to one side of a mirror. Draw a ray diagram. Is an image formed? If so, where is it, and from which directions would it be visible?
+
+O
+
+
+
+You should have found from your ray diagram that an image is still formed, and it has simply moved down the same distance as the real face. However, this new image would only be visible from high up, and the person can no longer see his own image. If you couldn’t draw a ray diagram that seemed to result in an image, the problem was probably that you didn’t choose any rays that happened to go away from the face in the right direction to hit the mirror.
+
+26
+
+Chapter 2 Images by Reflection, Part I
+
+2.2 Curved Mirrors
+
+
+
+(b) An image formed by a curved mirror.
+
+
+
+(c) The image is magnified by the same factor in depth and in its other dimensions.
+
+An image in a flat mirror is essentially a pretechnological example: even animals can look at their reflections in a calm pond. We now pass to our first nontrivial example of the manipulation of an image by technology: an image in a curved mirror. Before we dive in, let’s consider why this is an important example. If it was just a question of memorizing a bunch of facts about curved mirrors, then you would rightly rebel against an effort to spoil the beauty of your liberally educated brain by force-feeding you technological trivia. The reason this is an important example is not that curved mirrors are so important in and of themselves, but that the results we derive for curved bowl-shaped mirrors turn out to be true for a large class of other optical devices, including mirrors that bulge outward rather than inward, and lenses as well. A complex optical device like a microscope or a telescope is simply a combination of lenses or mirrors or both. What you’re really learning about here is the basic building block of all optical devices from movie projectors to octopus eyes.
+
+Because the mirror in figure (b) is curved, it tends to bend the rays back closer together than a flat mirror would. It is an “inbending” mirror. (You may hear this referred to by other people as a concave mirror. The term is not all that hard to remember, because the hollowed-out interior of the mirror is like a cave.) It is surprising but true that all the rays like c really do converge on a point, forming a good image. We will not prove this fact, but it is true for any mirror whose curvature is gentle enough and that is symmetric with respect to rotation about the perpendicular line passing through its center. (The old-fashioned method of making mirrors and lenses is by grinding them in grit by hand, and this process automatically tends to produce an almost perfect spherical surface.)
+
+Bending a ray like b inward implies bending its imaginary continuation c outward, in the same way that raising one end of a seesaw causes the other end to go down. The image therefore forms deeper behind the mirror. This doesn’t just show that there is extra distance between the image-nose and the mirror; it also implies that the image itself is bigger from front to back.
+
+It has been magnified in the front-to-back direction.
+
+It is easy to prove that the same magnification also applies to the image’s other dimensions. Consider a point like E in figure (c). The trick is that out of all the rays diffusely reflected by E, we pick the one that happens to head for the mirror’s center, C. The equal-angle property of specular reflection plus a little straightforward geometry easily leads us to the conclusion that triangles ABC and CDE are the same shape, with ABC being simply a scaled-up version of CDE. The magnification of depth equals the ratio BC/ CD, and the up-down magnification is AB/DE. A repetition of the same proof also shows that the magnification in the third dimension is also the same. This means that the image-head is simply a larger version of the real one, without any distortion. The scaling factor is called the magnification, M. The image in the figure is magnified by a factor M= 1.9.
+
+Note that we did explicitly specify whether the mirror was a sphere, a paraboloid, or some other shape. Elowever, we assumed that a focused image would be formed, which would not necessarily be true, for instance, for a mirror that was asymmetric or very deeply curved.
+
+Section 2.2 Curved Mirrors
+
+27
+
+2.3 A Real Image
+
+If we start by placing an object very close to the mirror, (d), and then move it farther and farther away, the image at first behaves as we would expect from our everyday experience with flat mirrors, receding deeper and deeper behind the mirror. At a certain point, however, a dramatic change occurs. When the object is more than a certain distance from the mirror,
+
+(e), the image appears upside-down and m front of the mirror.
+
+Here’s what’s happened. The mirror bends light rays inward, but when the object is very close to it, as in (d), the rays coming from a given point on the object are too strongly diverging (spreading) for the mirror to bring them back together. On reflection, the rays are still diverging, just not as strongly diverging. But when the object is sufficiently far away, (e), the mirror is only intercepting the rays that came out in a narrow cone, and it is able to bend these enough so that they will reconverge.
+
+Note that the rays shown in the figure, which both originated at the same point on the object, reunite when they cross. The point where they cross is the image of the point on the original object. This type of image is called a real image, in contradistinction to the virtual images we’ve studied before. The use of the word “real” is perhaps unfortunate. It sounds as though we are saying the image was an actual material object, which of course it is not.
+
+The distinction between a real image and a virtual image is an important one, because a real image can projected onto a screen or photographic film. If a piece of paper is inserted in figure (e) at the location of the image, the image will be visible to someone looking at the paper from the left. Your eye uses a lens to make a real image on the retina.
+
+Sketch another copy of the face in figure (e), even farther from the mirror, and draw a ray diagram. What has happened to the location of the image?
+
+Self-Check
+
+(d) A virtual image.
+
+
+
+(e) A real image.
+
+
+
+Increasing the distance from the face to the mirror has decreased the distance from the image to the mirror. I his is the opposite of what happened with the virtual image.
+
+28
+
+Chapter 2 Images by Reflection, Part I
+
+2.4 Images of Images
+
+
+
+(f) A Newtonian telescope being used with a camera.
+
+
+
+(g) A Newtonian telescope being used for visual rather than photographic observing. In real life, an eyepiece lens is normally used for additional magnification, but this simpler setup will also work.
+
+If you are wearing glasses right now, then the light rays from the page are being manipulated first by your glasses and then by the lens of your eye. You might think that it would be extremely difficult to analyze this, but in fact it is quite easy. In any series of optical elements (mirrors or lenses or both), each element works on the rays furnished by the previous element in exactly the same manner as if the image formed by the previous element was an actual object.
+
+Figure (f) shows an example involving only mirrors. The Newtonian telescope, invented by Isaac Newton, consists of a large curved mirror, plus a second, flat mirror that brings the light out of the tube. (In very large telescopes, there may be enough room to put a camera or even a person inside the tube, in which case the second mirror is not needed.) The tube of the telescope is not vital; it is mainly a structural element, although it can also be helpful for blocking out stray light. The lens has been removed from the front of the camera body, and is not needed for this setup. Note that the two sample rays have been drawn parallel, because an astronomical telescope is used for viewing objects that are extremely far away. These two “parallel” lines actually meet at a certain point, say a crater on the moon, so they can’t actually be perfectly parallel, but they are parallel for all practical purposes since we would have to follow them upward for a quarter of a million miles to get to the point where they intersect.
+
+The large curved mirror by itself would form an image I, but the small flat mirror creates an image of the image, T. The relationship between I and T is exactly the same as it would be if I was an actual object rather than an image: I and V are at equal distances from the plane of the mirror, and the line between them is perpendicular to the plane of the mirror.
+
+One surprising wrinkle is that whereas a flat mirror used by itself forms a virtual image of an object that is real, here the mirror is forming a real image of virtual image I. This shows how pointless it would be to try to memorize lists of facts about what kinds of images are formed by various optical elements under various circumstances. You are better off simply drawing a ray diagram.
+
+Although the main point here was to give an example of an image of an image, this is also an interesting case where we need to make the distinction between magnification and angular magnification. If you are looking at the moon through this telescope, then the images I and V are much smaller than the actual moon. Otherwise they would not fit inside the telescope or the camera! However, these images are very close to your eye compared to the actual moon. The small size of the image has been more than compensated for by the shorter distance. The important thing here is the amount of angle within your field of view that the image covers, and it is this angle that has been increased. The factor by which it is increased is called the angular magnification, M.
+
+Section 2.4 Images of Images
+
+29
+
+Discussion Questions
+
+A. Describe the images that will be formed of you if you stand between two parallel mirrors.
+
+B. Locate the images formed by two perpendicular mirrors, as in the figure. What happens if the mirrors are not perfectly perpendicular?
+
+C. Locate the images formed by the periscope.
+
+
+
+30
+
+Chapter 2 Images by Reflection, Part I
+
+
+
+Summary
+
+Selected Vocabulary
+
+real image...
+
+virtual image
+
+magnification
+
+angular magnification
+
+Vocabulary Used in Other Books
+
+concave
+
+convex
+
+Notation
+
+M
+
+M
+
+a place where an object appears to be, because the rays diffusely reflected from any given point on the object have been bent so that they come back together and then spread out again from the new point like a real image, but the rays don’t actually cross again; they only appear to have come from the point on the image
+
+the factor by which an image’s linear size is increased (or decreased) the factor by which an image’s apparent angular size is increased (or decreased)
+
+describes a surface that is hollowed out like a cave describes a surface that bulges outward
+
+the magnification of an image
+
+the angular magnification of an image
+
+Summary
+
+A large class of optical devices, including lenses and flat and curved mirrors, operates by bending light rays to form an image. A real image is one for which the rays actually cross at each point of the image. A virtual image, such as the one formed behind a flat mirror, is one for which the rays only appear to have crossed at a point on the image. A real image can be projected onto a screen; a virtual one cannot.
+
+Mirrors and lenses will generally make an image that is either smaller than or larger than the original object. The scaling factor is called the magnification. In many situations, the angular magnification is more important than the actual magnification.
+
+Homework Problems
+
+31
+
+
+
+
+
+Homework Problems
+
+1 /. A man is walking at 1.0 m/s directly towards a flat mirror. At what speed is his separation from his image reducing?
+
+2. If a mirror on a wall is only big enough for you to see yourself from your head down to your waist, can you see your entire body by backing up? Test this experimentally and come up with an explanation for your observations. Note that it is easy to confuse yourself if the mirror is even a tiny bit off of vertical; check whether you are able to see more of yourself both above and below.
+
+3. In this chapter we’ve only done ray examples of mirrors with hollowedout shapes (called concave mirrors). Now draw a ray diagram for a curved mirror that has a bulging outward shape (called a convex mirror), (a) How does the image’s distance from the mirror compare with the actual object’s distance from the mirror? From this comparison, determine whether the magnification is greater than or less than one. (b) Is the image real or virtual? Could this mirror ever make the other type of image?
+
+4. As discussed in question 3, there are two types of curved mirrors, concave and convex. Make a list of all the possible combinations of types of images (virtual or real) with types of mirrors (concave and convex).
+
+(Not all of the four combinations are physically possible.) Now for each one, use ray diagrams to determine whether increasing the distance of the object from the mirror leads to an increase or a decrease in the distance of the image from the mirror.
+
+5. If the user of an astronomical telescope moves her head closer to or farther away from the image she is looking at, does the magnification change? Does the angular magnification change? Explain.
+
+32
+
+
+
+
+
+3 Images by Reflection, Part II
+
+It sounds a bit odd when a scientist refers to a theory as “beautiful,” but to those in the know it makes perfect sense. One mark of a beautiful theory is that it surprises us by being simple. The mathematical theory of lenses and curved mirrors gives us just such a surprise. We expect the subject to be complex because there are so many cases: an inbending mirror forming a real image, an outbending lens that makes a virtual image, and so on for a total of six possibilities. If we want to predict the location of the images in all these situations, we might expect to need six different equations, and six more for predicting magnifications. Instead, it turns out that we can use just one equation for the location of the image and one equation for its magnification, and these two equations work in all the different cases with no changes except for plus and minus signs. This is the kind of thing the physicist Eugene Wigner referred to as “the unreasonable effectiveness of mathematics.” Sometimes we can find a deeper reason for this kind of unexpected simplicity, but sometimes it almost seems as if God went out of Her way to make the secrets of universe susceptible to attack by the human thought-tool called math.
+
+33
+
+
+
+3.1 A Real Image Formed by an In-Bending Mirror
+
+
+
+r
+
+do
+
+Location of the image
+
+We will now derive the equation for the location of a real image formed by an inbending mirror. We assume for simplicity that the mirror is spherical, but actually this isn’t a restrictive assumption, because any shallow, symmetric curve can be approximated by a sphere. Given the radius, r, of the mirror, and the distance d from the mirror to the object, we wish to find the distance d from the mirror to the image. Note that although this is only one possible case of image formation, you will not have to plod through more such derivations. The equation will work in the other cases with a simple modification of plus and minus signs.
+
+Since we have proven in the previous chapter that this type of image is not distorted, we can use an on-axis point, O, on the object. The equation we derive to relate do to d{ will also hold for off-axis points, since otherwise the image would have to be distorted, which we know is not true.
+
+To locate the image we draw two rays emitted by the object and find where they cross. Ray ORI is chosen at random, but for the other ray we choose the special one that heads straight in along the axis. Point C is the center of the complete sphere we would get by extending the mirror’s surface. We know that specular reflection gives equal angles with respect to the normal for the incoming and outgoing rays, so angle ACR must be equal to the average of angles AIR and AOR,
+
+4ACR
+
+4-AIR + 4 AOR
+
+(1)
+
+We want to relate this somehow to the distances d. and dQ. For legibility I have drawn the figure with a very sharply curved mirror and the object and image quite close to it, but we’re really assuming a mirror with a shallow curve, in which case the distance from point A to the mirror becomes negligible, and we have
+
+r ~ AC, d. ~ AI, and d ~ AO
+
+1 o
+
+We can relate these to the angles via trigonometry:
+
+(2)
+
+^ = tan 4ACR , - tan 4AIR , and ^ « tan 4AOR .(3)
+
+AC d-, d „
+
+We can simplify this by making use again of the assumption that the mirror is very shallow, and the triangles therefore very long and skinny. Under these circumstances, the small-angle approximation tan 0 ~ 0 applies (for 0 measured in radians). Using this approximation on equations (3) and then substituting them into equation (1) yields
+
+RA
+
+r
+
+RA+RAA
+
+</; dQ i
+
+which is readily simplified to
+
+2
+
+r
+
+
+
+d0
+
+34
+
+Chapter 3 Images by Reflection, Part II
+
+The quantity r/2 is referred to as the focal length, f of the mirror, so the equation is usually rewritten as
+
+1 J_ + JL
+
+/ ^i + ^o
+
+Self-Check
+
+(1) If we work with a certain mirror, so that f is fixed, what happens to d if we
+
+increase d ? If we decrease it?
+
+0
+
+
+
+Example: Solving for d.
+
+We encounter many cases in which fand do are known, and we wish to predict the location of the image, d.. Straightforward algebra gives -i i-1 “■ - ■
+
+Example: Interpretation of the focal length An inbending mirror can be used to cook food in locations where fuel and electricity are unavailable. The sun is essentially infinitely far away, do we have d0 = °° and 1/do=0, so d.=f. The focal length can thus be interpreted as the location of an image formed by an object infinitely far away.
+
+Using this reinterpretation of the focal length, we see that a small focal length corresponds to a deeply curved, strongly focusing mirror, i.e. one that acts very different from a flat mirror.
+
+A mirror with shallow curvature has a long focal length, and reflects rays at angles not much different from those that woould be produced with a flat mirror.
+
+Self-Checks
+
+(2) Suppose an object is placed at the center of the sphere made by extending the surface of the mirror. What would you expect to happen based on a ray diagram? How would you interpret this in relation to the equation for the position of the image?
+
+(3) Suppose a lightbulb is placed at a distance of one focal length from an inbending mirror. What will happen?
+
+Magnification
+
+We have already discussed in the previous chapter how to find the magnification of a virtual image made by a curved mirror. The result is the same for a real image, and we omit the proof, which is very similar. In our new notation, the result is
+
+(1) l he 1 id. and Mdo terms have to add up to a fixed amount. It do gets smaller, then l/do gets bigger, so i/d must get smaller, meaning d becomes greater. Conversely, a bigger do leads to a smaller d. (2) Each ray will extend out along a radius of the sphere. The ones that strike the mirror will strike it along the normal and be reflected back along the same path. They will reconverge to form an image at the same location where the object is. This effect can be observed with sound in a spherical room. (3) This is the same as the example of the sun-oven, but with all the rays reversed in time. An image of the lightbulb will be formed infinitely far away, i.e. the rays will all be reflected in the same direction, so that they never cross. This is a searchlight.
+
+Section 3.1 A Real Image Formed by an In-Bending Mirror
+
+35
+
+
+
+
+
+3.2 Other Cases With Curved Mirrors
+
+The equation = (1 If - l/ify) can easily produce a negative result,
+
+but we have been thinking of d. as a distance, and distances can’t be negative. What’s going on here?
+
+Let’s look at a graph of d. as a function of fy. The branch on the upper right corresponds to the case of a real image. Strictly speaking, this is the only part of the graph that we’ve proven corresponds to reality, since we never did any geometry for other cases, such as virtual images. As discussed in the self-check in the previous section, making do bigger causes d. to become smaller, and vice-versa.
+
+From drawing ray diagrams, we have already seen what happens when the object is very close to the mirror: the mirror intercepts a cone of rays from the object that is very broad, too broad to allow the mirror to bend the rays back together again. A virtual image is produced on the far side of the mirror. This is the first example of Wigner’s “unreasonable effectiveness of mathematics” that we have encountered in optics. Even though our proof depended on the assumption that the image was real, the equation we derived turns out to be applicable to virtual images, provided that we either interpret the positive and negative signs in a certain way, or else modify the equation to have different positive and negative signs.
+
+36
+
+Chapter 3 Images by Reflection, Part II
+
+Self-Check
+
+Interpret the three places where, in physically realistic parts of the graph, the graph approaches one of the dashed lines. [This will come more naturally if you have learned the concept of limits in a math class.]
+
+Example: A flat mirror
+
+We can even apply the equation to a flat mirror. As a sphere gets bigger and bigger, its surface is more and more gently curved. The planet Earth is so large, for example, that we cannot even perceive the curvature of its surface. To represent a flat mirror, we let the mirror’s radius of curvature, and its focal length, become infinite. Dividing by infinity gives zero, so we have
+
+Md = -1/d ,
+
+0 I ’
+
+or
+
+4,=-4 ■
+
+If we interpret the minus sign as indicating a virtual image on the far side of the mirror from the object, this makes sense.
+
+It turns out that for any of the six possible combinations of real or virtual images formed by inbending or out-bending lenses or mirrors, we can apply an equation of the form
+
+111
+
+/ = d{ + d0 ’
+
+with only a modification of plus or minus signs. There are two possible approaches here. The approach we have been using so far is the more popular approach in textbooks: leave the equation the same, but attach interpretations to the resulting negative or positive values of the variables. The trouble with this approach is that one is then forced to memorize tables of sign conventions, e.g. that the value of ^.should be negative when the image is a virtual image formed by an inbending mirror. Positive and negative signs also have to be memorized for focal lengths. Ugh! It’s highly unlikely that any student has ever retained these lengthy tables in his or her mind for more than five minutes after handing in the final exam in a physics course. Of course one can always look such things up when they are needed, but the effect is to turn the whole thing into an exercise in blindly plugging numbers into formulas.
+
+At the top ot the graph, cf. approaches infinity when do approaches f; interpretation: the rays just barely converge to the right of the mirror. On the far right, c/approaches fas c/o approaches infinity; this is the definition of the focal length. At the bottom, cf approaches negative infinity when do approaches ffrom the other side; interpretation: the rays don’t quite converge on the right side of the mirror, so they appear to have come from a virtual image point very far to the left of the mirror.
+
+Section 3.2 Other Cases With Curved Mirrors
+
+37
+
+
+
+As you have gathered by now, I have a method I think is better. In this method, the variables/’ d, and d are all positive by definition, and we put in positive and negative signs in the equation depending on the situations. Rather than memorizing these signs, we start with the generic equation
+
+i = ±1 ±J:
+
+f d\ dQ
+
+and then determine the signs by a two-step method that depends on ray diagrams. The method is as follows:
+
+1. Use ray diagrams to decide whether and dQ vary in the same way or in opposite ways. (In other words, decide whether making d greater results in a greater value of d or a smaller one.) Based on this, decide whether the two signs in the equation are the same or opposite. If the signs are opposite, go on to step 2 to determine which is positive and which is negative.
+
+2. It is normally only physically possible for either d or d to be infinite, not both. (Of course it is always possible to put an object at infinity, but that might for instance result in the formation of a real image, when you are interested in the case of a virtual image.) If we imagine the case where that variable is infinite, then dividing by infinity gives zero, so the only term on the right side of the equation would be the one that has the other variable in it. Since the left-hand side of the equation is positive by definition, the term on the right that we didn’t eliminate must be the one that has a plus sign.
+
+Although focal lengths are always positive in the method used in this book, you should be aware that out-bending mirrors and lenses are assigned negative focal lengths in the other method, so if you see a lens labeled/=-30 cm, you’ll know what it means.
+
+38
+
+Chapter 3 Images by Reflection, Part II
+
+
+
+
+
+Example: An anti-shoplifting mirror Question: Convenience stores often install an out-bending mirror so that the clerk has a view of the whole store and can catch shoplifters. Use a ray diagram to show that the image is reduced, bringing more into the clerk’s field of view. If the focal length of the mirror is 3.0 m, and the mirror is 7.0 m from the farthest wall, how deep is the image of the store? (Note that in the other method of handling the signs, the focal length would have been given as -3.0 m.)
+
+Solution: As shown in ray diagram (a), d. is less than do. The magnification, M = d/d, will be less than one, i.e. the image is actually reduced rather than magnified.
+
+We now apply the method outlined above for determining the plus and minus signs. Step 1: The object is the point on the opposite wall. As an experiment, (b), we try making the object closer — much much closer, so that even if our drawing isn’t perfectly accurate we’ll still get the right result for the change in the image’s location. (I did these drawings using illustration software, but if you were doing them by hand, you’d also want to make much larger ones for greater accuracy.) Decreasing do has clearly made d. smaller as well. There must be a cancellation of the effects of changing the two terms on the right in the same way, and the only way to get such a cancellation is if the two terms have opposite signs. (If they were both positive, for example, then increasing both terms would have to lead to an increase in the value of the whole right side, but that’s impossible because the left side is a fixed constant.)
+
+Step 2: Now which is the positive term and which is negative? Figure (c) shows a perfectly reasonable ray diagram of an image formed of an object at infinity, the moon, for example. Figure (d) shows an attempt to make an image at infinity. To get an image at infinity, we would have had to start with a converging set of rays, which is not physically possible, since diffuse reflection from a point on the wall creates diverging rays. If cfocan be infinite, then the sign of the c/term must be positive.
+
+We have now determined that the form of the equation must be
+
+1 _ 1 L
+
+f dt d0
+
+Solving for d., we find
+
+= 2.1 m .
+
+(The image of the store is reduced by a factor of 2.1/7.0=0.3, i.e. it is smaller by 70%.)
+
+Section 3.2 Other Cases With Curved Mirrors
+
+39
+
+3.3* Aberrations
+
+spherical
+
+
+
+Spherical mirrors are the cheapest to make, but parabolic mirrors are better for making images of objects at infinity. A sphere has equal curvature everywhere, but a parabola has tighter curvature at its center and gentler curvature at the sides.
+
+
+
+Even though the spherical mirror (solid line) is not well adapted for viewing an object at infinity, we can improve its performance greatly by stopping it down. Now the only part of the mirror being used is the central portion, where its shape is virtually indistinguishable from a parabola (dashed line).
+
+An imperfection or distortion in an image is called an aberration. An aberration can be produced by a flaw in a lens or mirror, but even with a perfect optical surface some degree of aberration is unavoidable. To see why, consider the mathematical approximation we’ve been making, which is that the depth of the mirror’s curve is small compared to d and d. Since only a flat mirror can satisfy this shallow-mirror condition perfectly, any curved mirror will deviate somewhat from the mathematical behavior we derived by assuming that condition. There are two main types of aberration in curved mirrors, and these also occur with lenses.
+
+(1) The image may be sharp when the object is at certain distances and blurry when it is at other distances. The blurriness occurs because the rays do not all cross at exactly the same point. If we know in advance the distance of the objects with which the mirror or lens will be used, then we can optimize the shape of the optical surface to make in-focus images in that situation. For instance, a spherical mirror will produce a perfect image of an object that is at the center of the sphere, because each ray is reflected directly onto the radius along which it was emitted. For objects at greater distances, however, the focus will be somewhat blurry. In astronomy the objects being used are always at infinity, so a spherical mirror is a poor choice for a telescope. A different shape (a parabola) is better specialized for astronomy.
+
+(2) An object on the axis of the lens or mirror may be imaged correctly, but off-axis objects may be out of focus. In a camera, this type of aberration would show up as a fuzziness near the sides of the picture when the center was perfectly focused.
+
+One way of decreasing aberration is to use a small-diameter mirror or lens, or block most of the light with an opaque screen with a hole in it, so that only light that comes in close to the axis can get through. Either way, we are using a smaller portion of the lens or mirror whose curvature will be more shallow, thereby making the shallow-mirror (or thin-lens) approximation more accurate. Your eye does this by narrowing down the pupil to a smaller hole. In a camera, there is either an automatic or manual adjustment, and narrowing the opening is called “stopping down.” The disadvantage of stopping down is that light is wasted, so the image will be dimmer or a longer exposure must be used.
+
+What I would suggest you take away from this discussion for the sake of your general scientific education is simply an understanding of what an aberration is, why it occurs, and how it can be reduced, not detailed facts about specific types of aberrations.
+
+40
+
+Chapter 3 Images by Reflection, Part II
+
+
+
+
+
+Summary
+
+Selected Vocabulary
+
+focal length a property of a lens or mirror, equal to the distance from the lens or mirror
+
+to the image it forms of an object that is infinitely far away
+
+Notation
+
+f. the focal length
+
+d the distance of the object from the mirror (technically from the plane
+
+tangent to the center of the mirror, although this seldom matters much for a mirror whose curve is shallow)
+
+the distance of the image from the mirror
+
+Notation Used in Other Books
+
+J>0 describes an inbending lens or mirror; in this book, all focal lengths are
+
+positive, so there is no such implication
+
+f<0 describes an out-bending lens or mirror; in this book, all focal lengths are
+
+positive
+
+M< 0 indicates an inverted image
+
+Summary
+
+Every lens or mirror has a property called the focal length, which is defined as the distance from the lens or mirror to the image it forms of an object that is infinitely far away. A stronger lens or mirror has a shorter focal length.
+
+The relationship between the locations of an object and its image formed by a lens or mirror can always be expressed by an equation of the form
+
+1
+
+f
+
+±1 ±1
+
+d j d0
+
+The choice of plus and minus signs depends on whether we are dealing with a lens or a mirror, whether the lens or mirror is inbending or outbending, and whether the image is real or virtual. A method for determining the plus and minus signs is as follows:
+
+1. Use ray diagrams to decide whether d. and do vary in the same way or in opposite ways. Based on this, decide whether the two signs in the equation are the same or opposite. If the signs are opposite, go on to step 2 to determine which is positive and which is negative.
+
+2. It is normally only physically possible for either d. or d0 to be infinite, not both. If we imagine the case where that variable is infinite, then dividing by infinity gives zero, so the only term on the right side of the equation would be the one that has the other variable in it. Since the left-hand side of the equation is positive by definition, the term on the right that we didn’t eliminate must be the one that has a plus sign.
+
+Once the correct form of the equation has been determined, the magnification can be found via the equation
+
+Summary
+
+41
+
+
+
+
+
+Homework Problems
+
+
+
+1. Apply the equation M=dldo to the case of a flat mirror.
+
+2 S. Use the method described in the text to derive the equation relating object distance to image distance for the case of a virtual image produced by an inbending mirror.
+
+3. (a) Make up a numerical example of a virtual image formed by an inbending mirror with a certain focal length, and determine the magnification. (You will need the result of the previous problem.) Now change the location of the object a little bit and redetermine the magnification, showing that it changes. At my local department store, the cosmetics department sells mirrors advertised as giving a magnification of 5 times. How would you interpret this?
+
+(b*) Suppose a Newtonian telescope is being used for astronomical observing. Assume for simplicity that no eyepiece is used, and assume a value for the focal length of the mirror that would be reasonable for an amateur instrument that is to fit in a closet. Is the angular magnification different for the moon than for a distant star?
+
+4. (a) Find a case where the magnification of a curved mirror is infinite. Is the angular magnification infinite from any realistic viewing position? (b) Explain why infinite magnification can’t be achieved by having d =0.
+
+5 ★. The figure shows a device for constructing a realistic optical illusion. Two mirrors of equal focal length are put against each other with their silvered surfaces facing inward. A small object placed in the bottom of the cavity will have its image projected in the air above. The way it works is that the top mirror produces a virtual image, and the bottom mirror then creates a real image of the virtual image, (a) Show that if the image is to be positioned as shown, at the mouth of the cavity, then the focal length of the mirrors is related to the dimension h via the equation
+
+i
+
+/
+
+i
+
+7
+
+(b) Restate the equation in terms of a single variable x=hlfi and show that there are two solutions for x. Which solution is physically consistent with the assumptions of the calculation?
+
+S A solution is given in the back of the book. * A difficult problem. y A computerized answer check is available. I A problem that requires calculus.
+
+42
+
+Chapter 3 Images by Reflection, Part II
+
+
+
+
+
+4 Refraction and Images
+
+Economists normally consider free markets to be the natural way of judging the monetary value of something, but social scientists also use questionnaires to gauge the relative value of privileges, disadvantages, or possessions that cannot be bought or sold. They ask people to imagine that they could trade one thing for another and ask which they would choose. One interesting result is that the average light-skinned person in the U.S. would rather lose an arm than suffer the racist treatment routinely endured by African-Americans. Even more impressive is the value of sight. Many prospective parents can imagine without too much fear having a deaf child, but would have a far more difficult time coping with raising a blind one.
+
+So great is the value attached to sight that some have imbued it with mystical aspects. Moses “had vision,” George Bush did not. Christian fundamentalists who perceive a conflict between evolution and their religion have claimed that the eye is such a perfect device that it could never have arisen through a process as helter-skelter as evolution, or that it could not have evolved because half of an eye would be useless. In fact, the structure of an eye is fundamentally dictated by physics, and it has arisen separately by evolution somewhere between eight and 40 times, depending
+
+43
+
+4.1 Refraction
+
+
+
+cornea-1
+
+(a) The anatomy of the human eye. (After an uncopyrighted diagram by the National Eye Institute, NIH.)
+
+
+
+(b) A simplified optical diagram of the eye. Light rays are bent when they cross from the air into the eye.
+
+on which biologist you ask. We humans have a version of the eye that can be traced back to the evolution of a light-sensitive “eye spot” on the head of an ancient invertebrate. A sunken pit then developed so that the eye would only receive light from one direction, allowing the organism to tell where the light was coming from. (Modern flatworms have this type of eye.) The top of the pit then became partially covered, leaving a hole, for even greater directionality (as in the nautilus). At some point the cavity became filled with jelly, and this jelly finally became a lens, resulting in the general type of eye that we share with the bony fishes and other vertebrates. Far from being a perfect device, the vertebrate eye is marred by a serious design flaw due to the lack of planning or intelligent design in evolution: the nerve cells of the retina and the blood vessels that serve them are all in front of the lightsensitive cells, blocking part of the light. Squids and other molluscs, whose eyes evolved on a separate branch of the evolutionary tree, have a more sensible arrangement, with the light-sensitive cells out in front.
+
+Refraction
+
+The fundamental physical phenomenon at work in the eye is that when light crosses a boundary between two media (such as air and the eye’s jelly), part of its energy is reflected, but part passes into the new medium. In the ray model of light, we describe the original ray as splitting into a reflected ray and a transmitted one (the one that gets through the boundary). Of course the reflected ray goes in a direction that is different from that of the original one, according to the rules of reflection we have already studied. More surprisingly — and this is the crucial point for making your eye focus light — the transmitted ray is bent somewhat as well. This bending phenomenon is called refraction. The origin of the word is the same as that of the word “fracture,” i.e. the ray is bent or “broken.” (Keep in mind, however, that light rays are not physical objects that can really be “broken.”) Refraction occurs with all waves, not just light waves.
+
+The actual anatomy of the eye, (a), is quite complex, but in essence it is very much like every other optical device based on refraction. The rays are bent when they pass through the front surface of the eye. Rays that enter farther from the central axis are bent more, with the result that an image is formed on the retina. There is only one slightly novel aspect of the situation. In most human-built optical devices, such as a movie projector, the light is bent as it passes into a lens, bent again as it reemerges, and then reaches a focus beyond the lens. In the eye, however, the “screen” is inside the eye, so the rays are only refracted once, on entering the jelly, and never emerge again.
+
+A common misconception is that the “lens” of the eye is what does the focusing. All the transparent parts of the eye are made of fairly similar stuff, so the dramatic change in medium is when a ray crosses from the air into the eye (at the outside surface of the cornea). This is where nearly all the refraction takes place. The lens medium differs only slightly in its optical properties from the rest of the eye, so very little refraction occurs as light enters and exits the lens. The lens, whose shape is adjusted by muscles attached to it, is only meant for fine-tuning the focus to form images of near or far objects.
+
+44
+
+Chapter 4 Refraction and Images
+
+incident ray reflected ray
+
+
+
+transmitted ray
+
+(c) The incident, reflected, and refracted rays all lie in a plane that includes the normal (dashed line).
+
+\
+
+medium 1 \
+
+
+
+
+
+medium 2
+
+e2\
+
+
+
+(d) The angles 0, and 02 are related to each other, and also depend on the properties of the two media. Because refraction is time-reversal symmetric, there is no need to label the rays with arrowheads.
+
+
+
+(e) Refraction has time-reversal symmetry. Regardless of whether the light is going in or out of the water, the relationship between the two angles is the same, and the ray is closer to the normal while in the water.
+
+Refractive properties of media
+
+What are the rules governing refraction? The first thing to observe about is that just as with reflection, the new, bent part of the ray lies in the same plane as the normal (perpendicular) and the incident ray, (c).
+
+If you try shooting a beam of light at the boundary between two substances, say water and air, you’ll find that regardless of the angle at which you send in the beam, the part of the beam in the water is always closer to the normal line, (d). It doesn’t matter if the ray is entering the water or leaving, so refraction is symmetric with respect to time-reversal, (e).
+
+If, instead of water and air, you try another combination of substances, say plastic and gasoline, again you’ll find that the ray’s angle with respect to the normal is consistently smaller in one and larger in the other. Also, we find that if substance A has rays closer to normal than in B, and B has rays closer to normal than in C, then A has rays closer to normal than C. This means that we can rank-order all materials according to their refractive properties. Isaac Newton did so, including in his list many amusing substances, such as “Danzig vitriol” and “a pseudo-topazius, being a natural, pellucid, brittle, hairy stone, of a yellow color.” Several general rules can be inferred from such a list:
+
+• Vacuum lies at one end of the list. In refraction across the interface
+
+between vacuum and any other medium, the other medium has rays closer to the normal.
+
+• Among gases, the ray gets closer to the normal if you increase the
+
+density of the gas by pressurizing it more.
+
+• The refractive properties of liquid mixtures and solutions vary in a
+
+smooth and systematic manner as the proportions of the mixture are changed.
+
+• Denser substances usually, but not always, have rays closer to the
+
+normal.
+
+The second and third rules provide us with a method for measuring the density of an unknown sample of gas, or the concentration of a solution. The latter technique is very commonly used, and the CRC Handbook of Physics and Chemistry, for instance, contains extensive tables of the refractive properties of sugar solutions, cat urine, and so on.
+
+Section 4.1
+
+Refraction
+
+45
+
+
+
+
+
+Snell’s law
+
+The numerical rule governing refraction was discovered by Snell, who must have collected experimental data something like what is shown on this graph and then attempted by trial and error to find the right equation. The equation he came up with was
+
+sin 0 |
+
+——= constant . sin 02
+
+The value of the constant would depend on the combination of media used. For instance, any one of the data points in the graph would have sufficed to show that the constant was 1.3 for an air-water interface (taking air to be substance 1 and water to be substance 2).
+
+Snell further found that if media A and B gave a constant and media B and C gave a constant K , then refraction at an interface between A and C would be described by a constant equal to the product, Kac=KasKsq. This is exactly what one would expect if the constant depended on the ratio of some number characterizing one medium to the number characteristic of the second medium. This number is called the index of refraction of the medium, written as in equations. Since measuring the angles would only allow him to determine the ratio of the indices of refraction of two media, Snell had to pick some medium and define it as having n= 1. He chose to define vacuum as having n= 1. (The index of refraction of air at normal atmospheric pressure is 1.0003, so for most purposes it is a good approximation to assume that air has n= 1.) He also had to decide which way to define the ratio, and he chose to define it so that media with their rays closer to the normal would have larger indices of refraction. This had the advantage that denser media would typically have higher indices of refraction, and for this reason the index of refraction is also referred to as the optical density. Written in terms of indices of refraction, Snell’s equation becomes
+
+sin0j n 2 sin02 n\
+
+but rewriting it in the form
+
+n sin 0j = w, sin 0, [relationship between angles of rays at the interface between media with indices of refraction n and « ; angles are defined with respect to the normal]
+
+makes us less likely to get the 1 ’s and 2’s mixed up, so this the way most people remember Snell’s law. A few indices of refraction are given in the front of the book.
+
+Self-Check
+
+B(1) What would the graph look like for two substances with the same index of refraction?
+
+(2) Based on the graph, when does refraction at an air-water interface change the direction of a ray most strongly?
+
+[Answers on next page.]
+
+
+
+o=—i—i—i—i—i—i—i—i—i
+
+0 10 20 30 40 50 60 70 80 90
+
+eair (degrees)
+
+46
+
+Chapter 4 Refraction and Images
+
+
+
+
+
+Example
+
+Question: A submarine shines its searchlight up toward the surface of the water. What is the angle 0 shown in the figure? Solution: The tricky part is that Snell’s law refers to the angles with respect to the normal. Forgetting this is a very common mistake. The beam is at an angle of 30° with respect to the normal in the water. Let’s call the air medium 1 and the water medium 2. Solving Snell’s law for 0t, we find
+
+0, = sin-1U^sin 02J
+
+As mentioned above, air has an index of refraction very close to 1, and water’s is about 1.3, so we find 02=4O°. The angle a is therefore 50°.
+
+The index of refraction is related to the speed of light
+
+What neither Snell nor Newton knew was that there is a very simple interpretation of the index of refraction. This may come as a relief to the reader who is taken aback by the complex reasoning involving proportionalities that led to its definition. Later experiments showed that the index of refraction of a medium was inversely proportional to the speed of light in that medium. Since c is defined as the speed of light in vacuum, and «= 1 is defined as the index of refraction of vacuum, we have
+
+n = civ . [n = medium’s index of refraction, v = speed of
+
+light in that medium, c=speed of light in a vacuum]
+
+
+
+Many textbooks start with this as the definition of the index of refraction, although that approach makes the quantity’s name somewhat of a mystery, and leaves students wondering why civ was used rather than vie. It should also be noted that measuring angles of refraction is a far more practical method for determining n than direct measurement of the speed of light in the substance of interest.
+
+A mechanical model of Snell’s law
+
+Why should refraction be related to the speed of light? The mechanical model shown in the figure may help to make this more plausible. Suppose medium 2 is thick, sticky mud, which slows down the car. The car’s right wheel hits the mud first, causing the right side of the car to slow down. This will cause the car to turn to the right until is moves far enough forward for the left wheel to cross into the mud. After that, the two sides of the car will once again be moving at the same speed, and the car will go straight.
+
+Of course, light isn’t a car. Why should a beam of light have anything resembling a “left wheel” and “right wheel?” After all, the mechanical model would predict that a motorcycle would go straight, and a motorcycle seems like a better approximation to a ray of light than a car. The whole thing is just a model, not a description of physical reality.
+
+
+
+(1) If p and n2 are equal, Snell’s law becomes sin 0,=sin 02, which implies The graph would be a straight line along the diagonal of the graph.
+
+(2) The graph is farthest from the diagonal when the angles are large, i.e. when the ray strikes the interface at an oblique or grazing angle.
+
+Section 4.1 Refraction
+
+47
+
+
+
+
+
+(a) Refraction of a water wave. The water in the upper left part of the tank is shallower, so the speed of the waves is slower there, and their wavelength is shorter. The reflected part of the wave is also very faintly visible.
+
+Retouched from an uncopyrighted PSSC College Physics photograph.
+
+(b) A close-up view of what happens at the interface between the deeper medium and the shallower medium. The dashed lines are normals to the interface. The two marked angles on the right side are both equal to 0V and the two on the left equal 02
+
+A derivation of Snell’s law
+
+However intuitively appealing the mechanical model may be, light is a wave, and we should be using wave models to describe refraction. In fact Snell’s law can be derived quite simply from wave concepts. In figure (b), simple trigonometry gives
+
+sin 0( = XJh and
+
+sin 0, = XJh .
+
+Eliminating h by dividing the equations, we find
+
+sin0j A, | sin02 A2
+
+The frequencies of the two waves must be equal or else they would get out of step, so by v=fk we know that their wavelengths are proportional to their velocities. Combining 'k,ozv with v°^lIn gives A°<l/« , so we find
+
+sin0j n 2 sin02 n\
+
+which is one form of Snell’s law.
+
+48
+
+Chapter 4 Refraction and Images
+
+
+
+Total internal reflection in a fiber-optic cable.
+
+Color and refraction
+
+In general, the speed of light in a medium depends both on the medium and on the wavelength of the light. Another way of saying it is that a medium’s index of refraction varies with wavelength. This is why a prism can be used to split up a beam of white light into a rainbow. Each wavelength of light is refracted through a different angle.
+
+How much light is reflected, and how much is transmitted?
+
+In book 3 we developed an equation for the percentage of the wave energy that is transmitted and the percentage reflected at a boundary between media. This was only done in the case of waves in one dimension, however, and rather than discuss the full three dimensional generalization it will be more useful to go into some qualitative observations about what happens. First, reflection happens only at the interface between two media, and two media with the same index of refraction act as if they were a single medium. Thus, at the interface between media with the same index of refraction, there is no reflection, and the ray keeps going straight. Continuing this line of thought, it is not surprising that we observe very little reflection at an interface between media with similar indices of refraction.
+
+The next thing to note is that it is possible to have situations where no possible angle for the refracted ray can satisfy Snell’s law. Solving Snell’s law for 0,, we find
+
+02 = sin
+
+-l
+
+n
+
+n2
+
+- sin 01
+
+and if n is greater than n„ then there will be large values of 0j for which the quantity (»/»,) sin 0 is greater than one, meaning that your calculator will flash an error message at you when you try to take the inverse sine. What can happen physically in such a situation? The answer is that all the light is reflected, so there is no refracted ray. This phenomenon is known as total internal reflection, and is used in the fiber-optic cables that nowadays carry almost all long-distance telephone calls. The electrical signals from your phone travel to a switching center, where they are converted from electricity into light. From there, the light is sent across the country in a thin transparent fiber. The light is aimed straight into the end of the fiber, and as long as the fiber never goes through any turns that are too sharp, the light will always encounter the edge of the fiber at an angle sufficiently oblique to give total internal reflection. If the fiber-optic cable is thick enough, one can see an image at one end of whatever the other end is pointed at.
+
+Alternatively, a bundle of cables can be used, since a single thick cable is too hard to bend. This technique for seeing around corners is useful for making surgery less traumatic. Instead of cutting a person wide open, a surgeon can make a small “keyhole” incision and insert a bundle of fiberoptic cable (known as an endoscope) into the body.
+
+Since rays at sufficiently large angles with respect to the normal may be completely reflected, it is not surprising that the relative amount of reflection changes depending on the angle of incidence, and is weakest for small angles of incidence.
+
+Section 4.1 Refraction
+
+49
+
+
+
+
+
+Discussion questions
+
+A. What index of refraction should a fish have in order to be invisible?
+
+B. Does a surgeon using an endoscope need a source of light inside the body cavity? If so, how could this be done without inserting a light bulb through the incision?
+
+C. A denser sample of a gas has a higher index of refraction than a less dense sample (i.e. a sample under lower pressure), but why would it not make sense for the index of refraction of a gas to be proportional to density?
+
+D. The earth’s atmosphere gets thinner and thinner as you go higher in altitude. If a ray of light comes from a star that is below the zenith, what will happen to it as it comes into the earth’s atmosphere?
+
+E. Does total internal reflection occur when light in a denser medium encounters a less dense medium, or the other way around? Or can it occur in either case?
+
+4.2 Lenses
+
+Figures (a) and (b) show examples of lenses forming images. There is essentially nothing for you to learn about imaging lenses that is truly new. You already know how to construct and use ray diagrams, and you know about real and virtual images. The definition of the focal length of a lens is the same as the one for a curved mirror: the location of an image formed of an object infinitely far away. The equations for locating images and determining magnifications are of the same form. It’s really just a question of flexing your mental muscles on a few examples. The following self-checks and discussion questions will get you started.
+
+Self-Checks
+
+B(1) In figures (a) and (b), classify the images as real or virtual.
+
+(2) Glass has an index of refraction that is greater than that of air. Consider the topmost ray in figure (a). Explain why the ray makes a slight left turn upon entering the lens, and another left turn when it exits.
+
+(3) If the flame in figure (b) was moved closer to the lens, what would happen to the location of the image?
+
+(a) An inbending lens is making an image of a candle flame.
+
+(b) Now an outbending lens is making an image of the flame.
+
+
+
+(1) In (a), the rays cross at the image, so it is real. In (b), the rays only appear to have come from the image point, so the image is virtual.
+
+(2) A ray is always closer to the normal in the medium with the higher index of refraction. The first left turn makes the ray closer to the normal, as it should be in glass. The second left turn makes the ray farther from the normal, which is how it should be in air.
+
+(3) Take the topmost ray as an example. It will still take two right turns, but since it is entering the lens at a steeper angle, it will also leave at a steeper angle. Tracing backward to image, the steeper lines will meet closer to the lens.
+
+
+
+50
+
+Chapter 4 Refraction and Images
+
+
+
+(c) Two images of a rose created by the same lens and recorded with the same camera.
+
+Discussion Questions
+
+A. In figures (a) and (b), the front and back surfaces are parallel to each other at the center of the lens. What will happen to a ray that enters near the center?
+
+B. Suppose you wanted to change the setup in figure (a) so that the location of the actual flame in the figure would instead be occupied by an image of a flame. Where would you have to move the candle to achieve this? What about in (b)?
+
+C. There are three qualitatively different types of image formation that can occur with lenses, of which figures (a) and (b) exhaust only two. Figure out what the third possibility is. Which of the three possibilities result in a magnification greater than one?
+
+D. Classify the examples shown in figure (c) according to the types of images delineated in the previous discussion question.
+
+E. In figures (a) and (b), the only rays drawn were those that happened to enter the lenses. Discuss this in relation to figure (c).
+
+F. In the right-hand side of figure (c), the image viewed through the lens is in focus, but the side of the rose that sticks out is not. Why?
+
+G. In general, the index of refraction depends on the color of the light. What effect would this have on images formed by lenses?
+
+
+
+Section 4.2 Lenses
+
+51
+
+4.3* The Lensmaker’s Equation
+
+The focal length of a spherical mirror is simply r/2, but we cannot expect the focal length of a lens to be given by pure geometry, since it also depends on the index of refraction of the lens. Suppose we have a lens whose front and back surfaces are both spherical. (This is no great loss of generality, since any surface with a sufficiently shallow curvature can be approximated with a sphere.) Then if the lens is immersed in a medium with an index of refraction of 1, its focal length is given approximately by
+
+i -1
+
+/'= (»-1) f
+
+r\ r 2
+
+This is known as the lensmaker’s equation. In my opinion it is not particularly worthy of memorization. The positive sign is used when both surface are curved outward or both are curved inward; otherwise a negative sign applies. The proof of this equation is left as an exercise to those readers who are sufficiently brave and motivated.
+
+4.4* Refraction and the Principle of Least Time
+
+
+
+We seen previously how the rules governing straight-line motion of light and reflection of light can be derived from the principle of least time. What about refraction? In the figure, it is indeed plausible that the bending of the ray serves to minimize the time required to get from a point A to point B. If the ray followed the unbent path shown with a dashed line, it would have to travel a longer distance in the medium in which its speed is slower. By bending the correct amount, it can reduce the distance it has to cover in the slower medium without going too far out of its way. It is true that Snell’s law gives exactly the set of angles that minimizes the time required for light to get from one point to another. The proof of this fact is left as an exercise.
+
+52
+
+Chapter 4 Refraction and Images
+
+
+
+
+
+Summary
+
+Selected Vocabulary
+
+refraction the change in direction that occurs when a wave encounters the interface
+
+between two media
+
+index of refraction an optical property of matter; the speed of light in a vacuum divided by
+
+the speed of light in the substance in question
+
+Notation
+
+n the index of refraction
+
+Summary
+
+Refraction is change in direction that occurs when a wave encounters the interface between two media. Together, refraction and reflection account for the basic principles behind nearly all optical devices.
+
+Snell discovered the equation for refraction,
+
+rqsin 0! = n2sin 02 [angles measured with respect to the normal]
+
+through experiments with light rays, long before light was proven to be a wave. Snell’s law can be proven based on the geometrical behavior of waves. Here n is the index of refraction. Snell invented this quantity to describe the refractive properties of various substances, but it was later found to be related to the speed of light in the substance,
+
+n = c/v ,
+
+where c is the speed of light in a vacuum. In general a material’s index of refraction is different for different wavelengths of light.
+
+As discussed in the third book of this series, any wave is partially transmitted and partially reflected at the boundary between two media in which its speeds are different. It is not particularly important to know the equation that tells what fraction is transmitted (and thus refracted), but important technologies such as fiber optics are based on the fact that this fraction becomes zero for sufficiently oblique angles. This phenomenon is referred to as total internal reflection. It occurs when there is no angle that satisfies Snell’s law.
+
+Section Summary
+
+53
+
+
+
+
+
+Homework Problems
+
+1. Suppose an inbending lens is constructed of a type of plastic whose index of refraction is less than that of water. How will the lens’s behavior be different if it is placed underwater?
+
+2. There are two main types of telescopes, refracting (using lenses) and reflecting (using mirrors). (Some telescopes use a mixture of the two types of elements: the light first encounters a large curved mirror, and then goes through an eyepiece that is a lens.) What implications would the colordependence of focal length have for the relative merits of the two types of telescopes? What would happen with white starlight, for example?
+
+3. Based on Snell's law, explain why rays of light passing through the edges of an inbending lens are bent more than rays passing through parts closer to the center. It might seem like it should be the other way around, since the rays at the edge pass through less glass — shouldn't they be affected less?
+
+4. By changing the separation distance between lens and film, a camera can focus on subjects at a variety of distances. Suppose the proper lensfilm separation for taking an in-focus picture of a distant object such as the moon is x. To take an in-focus picture of a nearby object, will the proper lens-film separation be greater than, equal to, or less than x?
+
+Explain using diagrams.
+
+5 ^. (a) Light is being reflected diffusely from an object 1.000 m under water. The light that comes up to the surface is refracted at the water-air interface. If the refracted rays all appear to come from the same point, then there will be a virtual image of the object in the water, above the object’s actual position, which will be visible to an observer above the water. Consider three rays, A, B and C, whose angles in the water with respect to the normal are 0.=O.OOO°, 1.000° and 20.000° respectively.
+
+Find the depth of the point at which the refracted parts of A and B appear to have intersected, and do the same for A and C. Show that the intersections are at nearly the same depth, but not quite. [Check: The difference in depth should be about 4 cm.]
+
+(b) Since all the refracted rays do not quite appear to have come from the same point, this is technically not a virtual image. In practical terms, what effect would this have on what you see?
+
+(c) In the case where the angles are all small, use algebra and trig to show that the refracted rays do appear to come from the same point, and find an equation for the depth of the virtual image. Do not put in any numerical values for the angles or for the indices of refraction — just keep them as symbols. You will need the approximation sin 0 ~ tan 0 ~ 0 , which is valid for small angles measured in radians.
+
+S A solution is given in the back of the book. * A difficult problem. y A computerized answer check is available. I A problem that requires calculus.
+
+54
+
+Chapter 4 Refraction and Images
+
+
+
+
+
+'( 1
+
+
+
+Problem 8.
+
+6 ★ /. The drawing shows the anatomy of the human eye, at twice life size. Find the radius of curvature of the outer surface of the cornea by measurements on the figure, and then derive the focal length of the aircornea interface, where almost all the focusing of light occurs. You will need to use physical reasoning to modify the lensmaker’s equation for the case where there is only a single refracting surface. Assume that the index of refraction of the cornea is essentially that of water.
+
+7. When swimming underwater, why is your vision made much clearer by wearing goggles with flat pieces of glass that trap air behind them? [Hint: You can simplify your reasoning by considering the special case where you are looking at an object far away, and along the optic axis of the eye.]
+
+8. The figure shows four lenses. Lens 1 has two spherical surfaces. Lens 2 is the same as lens 1 but turned around. Lens 3 is made by cutting through lens 1 and turning the bottom around. Lens 4 is made by cutting a central circle out of lens 1 and recessing it.
+
+(a) A parallel beam of light enters lens 1 from the left, parallel to its axis. Reasoning based on Snell’s law, will the beam emerging from the lens be bent inward or outward, or will it remain parallel to the axis? Explain your reasoning. [Hint: It may be helpful to make an enlarged drawing of one small part of the lens, and apply Snell’s law at both interfaces. Recall that rays are bent more if they come to the interface at a larger angle with respect to the normal.]
+
+(b) What will happen with lenses 2, 3, and 4? Explain. Drawings are not necessary.
+
+9 *. Prove that the principle of least time leads to Snell’s law.
+
+10 y. An object is more than one focal length from an inbending lens, (a) Draw a ray diagram, (b) Using reasoning like that developed in the previous chapter, determine the positive and negative signs in the equation
+
+f d\ do
+
+(c) The images of the rose in section 4.2 were made using a
+
+lens with a focal length of 23 cm. If the lens is placed 80 cm from the rose, locate the image.
+
+11 y. An object is less than one focal length from an inbending lens, (a) Draw a ray diagram, (b) Using reasoning like that developed in the previous chapter, determine the positive and negative signs in the equation
+
+! = ±i±i
+
+f d\ do
+
+(c) The images of the rose in section 4.2 were made using a
+
+lens with a focal length of 23 cm. If the lens is placed 10 cm from the rose, locate the image.
+
+12 y. Nearsighted people wear glasses whose lenses are outbending. (a) Draw a ray diagram. For simplicity pretend that there is no eye behind the glasses, (b) Using reasoning like that developed in the previous chapter,
+
+determine the positive and negative signs in the equation
+
+i
+
+/
+
+-+J
+
+di
+
++ 1
+
+d o'
+
+(c) If the focal length of the lens is 50 cm, and the person is looking at an object at a distance of 80 cm, locate the image.
+
+Homework Problems
+
+55
+
+
+
+56
+
+
+
+
+
+This huge radio dish nestles in a natural canyon at Arecibo, Puerto Rico. Its apparently solid surface is actually a scaffolding that hangs like a suspension bridge. It is a telescope that images the universe using radio waves rather than visible light, and it is also used to search for artificial radio signals from intelligent beings on other planets. Why does it have to be so huge? It’s not mainly a question of picking up weak signals. The dish’s sensitivity is overkill for most jobs, and for example it would have easily been able to pick up signals from a species on the other side of the galaxy that were no more intense than the ones humans themselves have transmitted out into space. (This is assuming that it was tuned to the right frequency at the right time, and that the signals came from within the limited field of view it sweeps out as the world spins.) No, the reason it has to be so big is a matter of wave optics. To make the antenna select signals from only a certain direction in space and reject those coming from other angles, it must be as large as possible compared to the wavelength of a radio wave.
+
+5 Wave Optics
+
+Electron microscopes can make images of individual atoms, but why will a visible-light microscope never be able to? Stereo speakers create the illusion of music that comes from a band arranged in your living room, but why doesn’t the stereo illusion work with bass notes? Why are computer chip manufacturers investing billions of dollars in equipment to etch chips with x-rays instead of visible light?
+
+The answers to all of these questions have to do with the subject of wave optics. So far this book has discussed the interaction of light waves with matter, and its practical applications to optical devices like mirrors, but we have used the ray model of light almost exclusively. Hardly ever have we explicitly made use of the fact that light is an electromagnetic wave. We were able to get away with the simple ray model because the chunks of matter we were discussing, such as lenses and mirrors, were thousands of times larger than a wavelength of light. We now turn to phenomena and devices that can only be understood using the wave model of light.
+
+57
+
+5.1 Diffraction
+
+X Y 7
+
+
+
+(a) In this view from overhead, a straight, sinusoidal water wave encounters a barrier with two gaps in it. Strong wave vibration occurs at angles X and Z, but there is none at all at angle Y.
+
+
+
+(b) This doesn’t happen.
+
+Figures (a) and (b) were constructed as collages of uncopyrighted photos from PSSC College Physics. Figure (a), although essentially correct, is a little unrealistic because the waves beyond the barrier would be much weaker.
+
+Figure (a) shows a typical problem in wave optics, enacted with water waves. It may seem surprising that we don’t get a simple pattern like figure (b), but the pattern would only be that simple if the wavelength was hundreds of times shorter than the distance between the gaps in the barrier and the widths of the gaps.
+
+Wave optics is a broad subject, but this example will help us to pick out a reasonable set of restrictions to make things more manageable:
+
+(1) We restrict ourselves to cases in which a wave travels through a uniform medium, encounters a certain area in which the medium has different properties, and then emerges on the other side into a second uniform region.
+
+(2) We assume that the incoming wave is a nice tidy sine-wave pattern with wavefronts that are lines (or, in three dimensions, planes).
+
+(3) In figure (a) we can see that the wave pattern immediately beyond the barrier is rather complex, but farther on it sorts itself out into a set of wedges separated by gaps in which the water is still. We will restrict ourselves to studying the simpler wave patterns that occur farther away, so that the main question of interest is how intense the outgoing wave is at a given angle.
+
+The kind of phenomenon described by restriction (1) is called diffraction. Diffraction can be defined as the behavior of a wave when it encounters an obstacle or a nonuniformity in its medium. In general, diffraction causes a wave to bend around obstacles and make patterns of strong and weak waves radiating out beyond the obstacle. Understanding diffraction is the central problem of wave optics. If you understand diffraction, even the subset of diffraction problems that fall within restrictions (2) and (3), the rest of wave optics is icing on the cake.
+
+Diffraction can be used to find the structure of an unknown diffracting object: even if the object is too small to study with ordinary imaging, it may be possible to work backward from the diffraction pattern to learn about the object. The structure of a crystal, for example, can be determined by its x-ray diffraction pattern.
+
+Diffraction can also be a bad thing. In a telescope, for example, light waves are diffracted by all the parts of the instrument. This will cause the image of a star, for example, to appear fuzzy even when the focus has been adjusted correctly. By understanding diffraction, one can learn how a telescope must be designed in order to reduce this problem — essentially, it should have the biggest possible diameter.
+
+There are two ways in which restriction (2) might commonly be violated. First, the light might be a mixture of wavelengths. If we simply want to observe a diffraction pattern or to use diffraction as a technique for studying the object doing the diffracting (e.g. if the object is too small to see with a microscope), then we can pass the light through a colored filter before diffracting it.
+
+A second issue is that light from sources such as the sun or a lightbulb
+
+58
+
+Chapter 5 Wave Optics
+
+
+
+
+
+does not consist of a nice neat plane wave, except over very small regions of space. Different parts of the wave are out of step with each other, and the wave is referred to as incoherent. One way of dealing with this is shown in figure (c). After filtering to select a certain wavelength of red light, we pass the light through a small pinhole. The region of the light that is intercepted by the pinhole is so small that one part of it is not out of step with another. Beyond the pinhole, light spreads out in a spherical wave; this is analogous to what happens when you speak into one end of a paper towel roll and the sound waves spread out in all directions from the other end. By the time the spherical wave gets to the double slit it has spread out and reduced its curvature, so that we can now think of it as a simple plane wave.
+
+If this seems laborious, you may be relieved to know that modern technology gives us an easier way to produce a single-wavelength, coherent beam of light: the laser.
+
+The parts of the final image on the screen in (c) are called diffraction fringes. The center of each fringe is a point of maximum brightness, and halfway between two fringes is a minimum.
+
+Discussion Question
+
+Why would x-rays rather than visible light be used to find the structure of a crystal? Sound waves are used to make images of fetuses in the womb. What would influence the choice of wavelength?
+
+5.2 Scaling of Diffraction
+
+This chapter has “optics” in its title, so it is nominally about light, but we started out with an example involving water waves. Water waves are certainly easier to visualize, but is this a legitimate comparison? In fact the analogy works quite well, despite the fact that a light wave has a wavelength about a million times shorter. This is because diffraction effects scale uniformly. That is, if we enlarge or reduce the whole diffraction situation by the same factor, including both the wavelengths and the sizes of the obstacles the wave encounters, the result is still a valid solution.
+
+This is unusually simple behavior! In the first book of this series we saw many examples of more complex scaling, such as the impossibility of bacteria the size of dogs, or the need for an elephant to eliminate heat through its ears because of its small surface-to-volume ratio, whereas a tiny shrew’s life-style centers around conserving its body heat.
+
+Of course water waves and light waves differ in many ways, not just in scale, but the general facts you will learn about diffraction are applicable to all waves. In some ways it might have been more appropriate to insert this chapter at the end of book 3, Vibrations and Waves, but many of the important applications are to light waves, and you would probably have found these much more difficult without any background in optics.
+
+Another way of stating the simple scaling behavior of diffraction is that the type of diffraction we get depends only on the unitless ratio XI d, where X is the wavelength of the wave and d is some dimension of the diffracting objects, e.g. the center-to-center spacing between the slits in figures (a) and (b). If, for instance, we scale up both X and dby a factor of 37, the ratio XId will be unchanged.
+
+
+
+(c) A practical setup for observing diffraction of light.
+
+Section 5.2 Scaling of Diffraction
+
+59
+
+
+
+5.3 The Correspondence Principle
+
+The only reason we don’t usually notice diffraction of light in everyday life is that we don’t normally deal with objects that are comparable in size to a wavelength of visible light, which is about a millionth of a meter. Does this mean that wave optics contradicts ray optics, or that wave optics sometimes gives wrong results? No. If you hold three fingers out in the sunlight and cast a shadow with them, either wave optics or ray optics can be used to predict the straightforward result: a shadow pattern with two bright lines where the light has gone through the gaps between your fingers. Wave optics is a more general theory than ray optics, so in any case where ray optics is valid, the two theories will agree. This is an example of a general idea enunciated by the physicist Niels Bohr, called the correspondence principle: when flaws in a physical theory lead to the creation of a new and more general theory, the new theory must still agree with the old theory within its more restricted area of applicability. After all, a theory is only created as a way of describing experimental observations. If the original theory had not worked in any cases at all, it would never have become accepted.
+
+In the case of optics, the correspondence principle tells us that when \l d is small, both the ray and the wave model of light must give approximately the same result. When you cast a shadow with your fingers, Xld is about 10 ~4, so the two models will agree very closely. (To be specific, the shadows of your fingers will be outlined by a series of light and dark fringes, but the angle subtended by a fringe will be on the order of 10 1 radians, so they will be invisible and washed out by the natural fuzziness of the edges of sun-shadows, caused by the finite size of the sun.)
+
+Self-Check
+
+What kind of wavelength would an electromagnetic wave have to have in order to diffract dramatically around your body? Does this contradict the correspondence principle?
+
+It would have to have a wavelength on the order of millimeters or meters, the same distance scale as that ot your body. These would be microwaves or radio waves. (This effect can easily be noticed when a person affects a TV’s reception by standing near the antenna.) None of this contradicts the correspondence principle, which only states that the wave model must agree with the ray model when the ray model is applicable. The ray model is not applicable here because A7dis on the order of 1.
+
+60
+
+Chapter 5 Wave Optics
+
+
+
+
+
+5.4 Huygens’ Principle
+
+
+
+(a) Double-slit diffraction.
+
+
+
+(b) A wavefront can be analyzed by the principle of superposition, breaking it down into many small parts.
+
+
+
+(c) If it was by itself, each of the parts would spread out as a circular ripple.
+
+
+
+(d) Adding up the ripples produces a new wavefront.
+
+Returning to the example of double-slit diffraction, (a), note the strong visual impression of two overlapping sets of concentric semicircles. This is an example of Huygens’ principle, named after the Dutch physicist who came up with it. (The first syllable rhymes with “boy.”) Huygens’ principle states that any wavefront can be broken down into many small side-by-side wave peaks, (b), which then spread out as circular ripples, (c), and by the principle of superposition, the result of adding up these sets of ripples must give the same result as allowing the wave to propagate forward, (d). In the case of sound or light waves, which propagate in three dimensions, the “ripples” are actually spherical rather than circular, but we can often imagine things in two dimensions for simplicity.
+
+In double-slit diffraction the application of Huygens’ principle is visually convincing: it is as though all the sets of ripples have been blocked except for two. It is a rather surprising mathematical fact, however, that Huygens’ principle gives the right result in the case of an unobstructed linear wave, (c) and (d). A theoretically infinite number of circular wave patterns somehow conspire to add together and produce the simple linear wave motion with which we are familiar.
+
+Since Huygens’ principle is equivalent to the principle of superposition, and superposition is a property of waves, what Huygens had created was essentially the first wave theory of light. However, he imagined light as a series of pulses, like hand claps, rather than as a sinusoidal wave.
+
+The history is interesting. Isaac Newton loved the atomic theory of matter so much that he searched enthusiastically for evidence that light was also made of tiny particles. The paths of his light particles would correspond to rays in our description; the only significant difference between a ray model and a particle model of light would occur if one could isolate individual particles and show that light had a “graininess” to it. Newton never did this, so although he thought of his model as a particle model, it is more accurate to say he was one of the builders of the ray model.
+
+Almost all that was known about reflection and refraction of light could be interpreted equally well in terms of a particle model or a wave model, but Newton had one reason for strongly opposing Huygens’ wave theory. Newton knew that waves exhibited diffraction, but diffraction of light is difficult to observe, so Newton believed that light did not exhibit diffraction, and therefore must not be a wave. Although Newton’s criticisms were fair enough, the debate also took on the overtones of a nationalistic dispute between England and continental Europe, fueled by English resentment over Leibnitz’s supposed plagiarism of Newton’s calculus. Newton wrote a book on optics, and his prestige and political prominence tended to discourage questioning of his model.
+
+Thomas Young (1773-1829) was the person who finally, a hundred years later, did a careful search for wave interference effects with light and analyzed the results correctly. He observed double-slit diffraction of light as well as a variety of other diffraction effects, all of which showed that light exhibited wave interference effects, and that the wavelengths of visible light waves were extremely short. The crowning achievement was the demonstration by the experimentalist Heinrich Hertz and the theorist James Clerk
+
+Section 5.4 Huygens’ Principle
+
+61
+
+
+
+
+
+Maxwell that light was an electromagnetic wave. Maxwell is said to have related his discovery to his wife one starry evening and told her that she was the only person in the world who knew what starlight was.
+
+5.5 Double-Slit Diffraction
+
+X Y 7
+
+
+
+(a) Double-slit diffraction.
+
+
+
+(b) Application of Huygens' principle. White lines represent peaks, black lines troughs, which we can refer to as positive and negative.
+
+Let’s now analyze double-slit diffraction, (a), using Huygens’ principle. The most interesting question is how to compute the angles such as X and Z where the wave intensity is at a maximum, and the in-between angles like Y where it is minimized. Let us measure all our angles with respect to the vertical center line of the figure, which was the original direction of propagation of the wave.
+
+If we assume that the width of the slits is small (on the order of the wavelength of the wave or less), then we can imagine only a single set of Huygens ripples spreading out from each one, (b). The only dimension of the diffracting slits that has any effect on the geometric pattern of the overlapping ripples is then the center-to-center distance, d, between the slits.
+
+We know from our discussion of the scaling of diffraction that there must be some equation that relates an angle like 0Z to the ratio XI d,
+
+X / d 0j7
+
+If the equation for 0Z depended on some other expression such as X+d or X2ld, then it would change when we scaled X and dby the same factor, which would violate what we know about the scaling of diffraction.
+
+Along the central maximum line, X, we always have positive waves coinciding with positive ones and negative waves coinciding with negative ones. (I have arbitrarily chosen to take a snapshot of the pattern at a moment when the waves emerging from the slit are experiencing a positive peak.) The superposition of the two sets of ripples therefore results in a doubling of the wave amplitude along this line. There is constructive interference. This is easy to explain, because by symmetry, each wave has had to travel an equal number of wavelengths to get from its slit to the center line, (c).
+
+X Y z
+
+111
+
+
+
+(c) Because both sets of ripples have ten wavelengths to cover in order to reach the point along direction X, they will be in step when they get there.
+
+At the point along direction Y shown in the same figure, one wave has traveled ten wavelengths, and is therefore at a positive extreme, but the other has traveled only nine and a half wavelengths, so it at a negative extreme. There is perfect cancellation, so points along this line experience no wave motion.
+
+But the distance traveled does not have to be equal in order to get constructive interference. At the point along direction Z, one wave has gone nine wavelengths and the other ten. They are both at a positive extreme.
+
+62
+
+Chapter 5 Wave Optics
+
+
+
+
+
+(d) The waves travel distances Z.1 and L2 from the two slits to get to the same point in space, at an angle 0 from the center line.
+
+Self-Check
+
+At a point half a wavelength below the point marked along direction X, carry out a similar analysis.
+
+To summarize, we will have perfect constructive interference at any point where the distance to one slit differs from the distance to the other slit by an integer number of wavelengths. Perfect destructive interference will occur when the number of wavelengths of path length difference equals an integer plus a half.
+
+Now we are ready to find the equation that predicts the angles of the maxima and minima. The waves travel different distances to get to the same point in space, (d). We need to find whether the waves are in phase (in step) or out of phase at this point in order to predict whether there will be constructive interference, destructive interference, or something in between.
+
+One of our basic assumptions in this chapter is that we will only be dealing with the diffracted wave in regions very far away from the object that diffracts it, so the triangle is long and skinny. Most real-world examples with diffraction of light, in fact, would have triangles with even skinner proportions than this one. The two long sides are therefore very nearly parallel, and we are justified in drawing the right triangle shown in figure (e), labeling one leg of the right triangle as the difference in path length , LL\ and labeling the acute angle as 0. (In reality this angle is a tiny bit greater than the one labeled 0 in the previous figure.)
+
+The difference in path length is related to d and 0 by the equation L-L'
+
+7— = sin 0 .
+
+a
+
+Constructive interference will result in a maximum at angles for which L-L’ is an integer number of wavelengths,
+
+L-L’ = mk . [condition for a maximum; m is an integer]
+
+Here m equals 0 for the central maximum, -1 for the first maximum to its left, +2 for the second maximum on the right, etc. Putting all the ingredients together, we find mktd= sin 0, or
+
+
+
+(e) A closeup of the previous figure, showing how the path length difference L-L’ is related to d and to the angle <p.
+
+X
+
+d
+
+sin 0
+
+m
+
+[condition for a maximum; m is an integer] Similarly, the condition for a minimum is
+
+[a minimum if m is an integer plus 1/2]
+
+X
+
+d
+
+sin 0
+
+m
+
+That is, the minima are about halfway between the maxima.
+
+At this point, both waves would have traveled nine and a halt wavelengths. I hey would both be at a negative extreme, so there would be constructive interference.
+
+Section 5.5 Double-Slit Diffraction
+
+63
+
+
+
+m=0 Jr 1
+
+
+
+(f) Cutting c/in half doubles the angles the diffraction fringes.
+
+
+
+(g) Double-slit diffraction patterns of long-wavelength red light (top) and short-wavelength blue light (bottom).
+
+As expected based on scaling, this equation relates angles to the unitless ratio A.Id. Alternatively, we could say that we have proven the scaling property in the special case of double-slit diffraction. It was inevitable that the result would have these scaling properties, since the whole proof was geometric, and would have been equally valid when enlarged or reduced on a photocopying machine!
+
+Counterintuitively, this means that a diffracting object with smaller dimensions produces a bigger diffraction pattern, (f).
+
+Example: Double-slit diffraction of blue and red light Blue light has a shorter wavelength than red. For a given doubleslit spacing d, the smaller value of A/d for leads to smaller values of sin 0, and therefore to a more closely spaced set of diffraction fringes, (g)
+
+Example: The correspondence principle Let’s also consider how the equations for double-slit diffraction relate to the correspondence principle. When the ratio A/cfis very small, we should recover the case of simple ray optics. Now if A/ d is small, sin 0 must be small as well, and the spacing between the diffraction fringes will be small as well. Although we have not proven it, the central fringe is always the brightest, and the fringes get dimmer and dimmer as we go farther from it. For small values of AId, the part of the diffraction pattern that is bright enough to be detectable covers only a small range of angles. This is exactly what we would expect from ray optics: the rays passing through the two slits would remain parallel, and would continue moving in the 0=0 direction. (In fact there would be images of the two separate slits on the screen, but our analysis was all in terms of angles, so we should not expect it to address the issue of whether there is structure within a set of rays that are all traveling in the 0=0 direction.)
+
+64
+
+Chapter 5 Wave Optics
+
+
+
+Example: Spacing of the fringes at small angles At small angles, we can use the approximation sin 0 ~ 0 , which is valid if 6 is measured in radians. The equation for double-slit diffraction becomes simply
+
+1 _ 0_ d~ m ■
+
+which can be solved for 0 to give n _ mk d
+
+The difference in angle between successive fringes is the change in 0 that results from changing m by plus or minus one,
+
+■
+
+For example, if we write 07 for the angle of the seventh bright fringe on one side of the central maximum and 08 for the neighboring one, we have Q Q 8A, _ 7X
+
+H8_e7 ~ d d
+
+_ X d ’
+
+and similarly for any other neighboring pair of fringes.
+
+Although the equation X/d=sin Q/m is only valid for a double slit, it is still a valid guide to our thinking even if we want to make an image of a virus or a fleas leg: it is always true that
+
+(1) large values of A/<?/lead to a broad diffraction pattern, and
+
+(2) diffraction patterns are repetitive.
+
+In many cases the equation looks just like XId = sin Qhn but with an extra numerical factor thrown in, and with d interpreted as some other dimension of the object, e.g. the diameter of a piece of wire.
+
+Section 5.5 Double-Slit Diffraction
+
+65
+
+
+
+5.6 Repetition
+
+
+
+(a) A triple slit.
+
+Suppose we replace a double slit with a triple slit, (a). We can think of this as a third repetition of the structures that were present in the double slit. Will this device be an improvement over the double slit for any practical reasons?
+
+The answer is yes, as can be shown using figures (b) and (c). For ease of visualization, I have violated our usual rule of only considering points very far from the diffracting object. The scale of the drawing is such that a wavelengths is one cm. In (b), all three waves travel an integer number of wavelengths to reach the same point, so there is a bright central spot, as we would expect from our experience with the double slit. In figure (c), we show the path lengths to a new point. This point is farther from slit A by a quarter of a wavelength, and correspondingly closer to slit C. The distance from slit B has hardly changed at all. Because the paths lengths traveled from slits A and C differ from half a wavelength, there will be perfect destructive interference between these two waves. There is still some uncanceled wave intensity because of slit B, but the amplitude will be three times less than in figure (b), resulting in a factor of 9 decrease in brightness. Thus, by moving off to the right a little, we have gone from the bright central maximum to a point that is quite dark.
+
+Now let’s compare with what would have happened if slit C had been covered, creating a plain old double slit. The waves coming from slits A and B would have been out of phase by 0.23 wavelengths, but this would not have caused very severe interference. The point in figure (c) would have been quite brightly lit up.
+
+To summarize, we have found that adding a third slit narrows down the central fringe dramatically. The same is true for all the other fringes as well,
+
+
+
+
+
+(b) There is a bright central maximum.
+
+(c) At this point just off the central maximum, the path lengths traveled by the three waves have changed.
+
+
+
+
+
+(d) A double-slit diffraction pattern (top), and a triple-slit pattern (bottom).
+
+■iiiiimiiiini
+
+iiiiiiii
+
+66
+
+Chapter 5 Wave Optics
+
+
+
+
+
+and since the same amount of energy is concentrated in narrower diffraction fringes, each fringe is brighter and easier to see, (d).
+
+This is an example of a more general fact about diffraction: if some feature of the diffracting object is repeated, the locations of the maxima and minima are unchanged, but they become narrower.
+
+Taking this reasoning to its logical conclusion, a diffracting object with thousands of slits would produce extremely narrow fringes. Such an object is called a diffraction grating.
+
+5.7 Single-Slit Diffraction
+
+If we use only a single slit, is there diffraction? If the slit is very narrow compared to a wavelength of light, then we can approximate its behavior by using only a single set of Huygens ripples. There are no other sets of ripples to add to it, so there are no constructive or destructive interference effects, and no maxima or minima. The result will be a uniform spherical wave of light spreading out in all directions, like what we would expect from a tiny lightbulb. We could call this a diffraction pattern, but it is a completely featureless one, and it could not be used, for instance, to determine the wavelength of the light, as other diffraction patterns could.
+
+All of this, however, assumes that the slit is narrow compared to a wavelength of light. If, on the other hand, the slit is broader, there will indeed be interference among the sets of ripples spreading out from various points along the opening. Figure (a) shows an example with water waves, and figure (b) with light.
+
+Check
+
+How does the wavelength of the waves compare with the width of the slit in figure (a)?
+
+We will not go into the details of the analysis of single-slit diffraction, but let us see how its properties can be related to the general things we’ve learned about diffraction. We know based on scaling arguments that the angular sizes of features in the diffraction pattern must be related to the wavelength and the width, a, of the slit by some relationship of the form
+
+— <-> 0
+
+a
+
+This is indeed true, and for instance the angle between the maximum of the central fringe and the maximum of the next fringe on one side equals 1.5A,/ a. Scaling arguments will never produce factors such as the 1.5, but they tell us that the answer must involve XI a, so all the familiar qualitative facts are true. For instance, shorter-wavelength light will produce a more closely spaced diffraction pattern.
+
+(c) A pretty good simulation of the single-slit pattern of figure (a), made by using three motors to produce overlapping ripples from three neighboring points in the water.
+
+Figures a-c are uncopyrighted photos from PSSC College Physics.
+
+Judging by the distance from one bright wave crest to the next, the wavelength appears to be about 273 or 3/4 as great as the width of the slit.
+
+
+
+
+
+(a) Single-slit diffraction of water waves.
+
+Self
+
+Section 5.6 Single-Slit Diffraction
+
+67
+
+
+
+
+
+An important scientific example of single-slit diffraction is in telescopes. Images of individual stars, as in the figure above, are a good way to examine diffraction effects, because all stars except the sun are so far away that no telescope, even at the highest magnification, can image their disks or surface features. Thus any features of a star’s image must be due purely to optical effects such as diffraction. A prominent cross appears around the brightest star, and dimmer ones surround the dimmer stars. Something like this is seen in most telescope photos, and indicates that inside the tube of the telescope there were two perpendicular struts or supports. Light diffracted around these struts. You might think that diffraction could be eliminated entirely by getting rid of all obstructions in the tube, but the circles around the stars are diffraction effects arising from single-slit diffraction at the mouth of the telescope’s tube! (Actually we have not even talked about diffraction through a circular slit, but the idea is the same.) Since the angular sizes of the diffracted images depend on XI a, the only way to improve the resolution of the images is to increase the diameter, a, of the tube. This is one of the main reasons (in addition to light-gathering power) why the best telescopes must be very large in diameter.
+
+Self-Check
+
+What would this imply about radio telescopes as compared with visible-light telescopes?
+
+Discussion Question
+
+Why is it optically impossible for bacteria to evolve eyes that use visible light to form images?
+
+bince the wavelengths ot radio waves are thousands ot times longer, diffraction causes the resolution ot a radio telescope to be thousands of times worse, all other things being equal.
+
+68
+
+Chapter 5 Wave Optics
+
+
+
+Summary
+
+Selected Vocabulary
+
+diffraction the behavior of a wave when it encounters an obstacle or a nonuniformity
+
+in its medium; in general, diffraction causes a wave to bend around obstacles and make patterns of strong and weak waves radiating out beyond the obstacle.
+
+coherent a light wave whose parts are all in phase with each other
+
+Terminology Used in Other Books
+
+wavelets the ripples in Huygens’ principle
+
+Summary
+
+Wave optics is a more general theory of light than ray optics. When light interacts with material objects that are much larger then one wavelength of the light, the ray model of light is approximately correct, but in other cases the wave model is required.
+
+Huygens’ principle states that, given a wavefront at one moment in time, the future behavior of the wave can be found by breaking the wavefront up into a large number of small, side-by-side wave peaks, each of which then creates a pattern of circular or spherical ripples. As these sets of ripples add together, the wave evolves and moves through space. Since Huygens’ principle is a purely geometrical construction, diffraction effects obey a simple scaling rule: the behavior is unchanged if the wavelength and the dimensions of the diffracting objects are both scaled up or down by the same factor. If we wish to predict the angles at which various features of the diffraction pattern radiate out, scaling requires that these angles depend only on the unitless ratio AId, where d is the size of some feature of the diffracting object.
+
+Double-slit diffraction is easily analyzed using Huygens’ principle if the slits are narrower than one wavelength. We need only construct two sets of ripples, one spreading out from each slit. The angles of the maxima (brightest points in the bright fringes) and minima (darkest points in the dark fringes) are given by the equation
+
+A _ sin 9
+
+d m
+
+where d is the center-to-center spacing of the slits, and m is an integer at a maximum or an integer plus 1/2 at a minimum.
+
+If some feature of a diffracting object is repeated, the diffraction fringes remain in the same places, but become narrower with each repetition. By repeating a double-slit pattern hundreds or thousands of times, we obtain a diffraction grating.
+
+A single slit can produce diffraction fringes if it is larger than one wavelength. Many practical instances of diffraction can be interpreted as single-slit diffraction, e.g. diffraction in telescopes. The main thing to realize about single-slit diffraction is that it exhibits the same kind of relationship between A, d, and angles of fringes as in any other type of diffraction.
+
+Summary
+
+69
+
+
+
+
+
+Homework Problems
+
+1. Why would blue or violet light be the best for microscopy?
+
+2. Match gratings A-C with the diffraction patterns 1 -3 that they produce. Explain.
+
+
+
+3 y. A transmission grating with 2000 lines/cm is illuminated by a beam of 694.3-nm light from a laser. Spots of light, on both sides of the undeflected beam, appear on a screen 2.0 m away, (a) How far from the central axis is either of the two nearest spots? (b) Find how much difference it makes whether you use the approximation sin 0 ~ 0 .
+
+4. When white light passes through a diffraction grating, what is the smallest value of m for which the visible spectrum of order m overlaps the next one, of order m+1? (The visible spectrum runs from about 400 nm to about 700 nm.)
+
+5. Ultrasound, i.e. sound waves with frequencies too high to be audible, can be used for imaging fetuses in the womb or for breaking up kidney stones so that they can be eliminated by the body. Consider the latter application. Lenses can be built to focus sound waves, but because the wavelength of the sound is not all that small compared to the diameter of the lens, the sound will not be concentrated exactly at the geometrical focal point. Instead, a diffraction pattern will be created with an intense central spot surrounded by fainter rings. About 85% of the power is concentrated within the central spot. The angle of the first minimum (surrounding the central spot) is given by sin 0 = 1.22 XI b, where b is the diameter of the lens. This is similar to the corresponding equation for a single slit, but with a factor of 1.22 in front which arises from the circular
+
+S A solution is given in the back of the book. 'k A difficult problem. y A computerized answer check is available. j A problem that requires calculus.
+
+70
+
+Chapter 5 Wave Optics
+
+
+
+
+
+shape of the aperture. Let the distance from the lens to the patient's kidney stone be L=20 cm. You will want^>20 kHz, so that the sound is inaudible. Find values of b and/that would result in a usable design, where the central spot is small enough to lie within a kidney stone 1 cm in diameter.
+
+6. For star images such as the ones in the photo in section 5.6, estimate the angular width of the diffraction spot due to diffraction at the mouth of the telescope. Assume a telescope with a diameter of 10 meters (the largest currently in existence), and light with a wavelength in the middle of the visible range. Compare with the actual angular size of a star of diameter 109 m seen from a distance of 1017 m. What does this tell you?
+
+Homework Problems
+
+71
+
+
+
+72
+
+
+
+Exercises
+
+Exercise 2A: Exploring Images With a Curved Mirror
+
+Equipment:
+
+curved mirrors like the ones described in this chapter curved mirrors that bulge outward (for part 6 only)
+
+1. Obtain a curved mirror from your instructor. If it is silvered on both sides, make sure you’re working with the hollowed-out side, which bends light rays inward. Look at your own face in the mirror. Now change the distance between your face and the mirror, and see what happens. How do you explain your observations?
+
+2. With the mirror held far away from you, observe the image of something behind you, over your shoulder. Now bring your eye closer and closer to the mirror. Can you see the image with your eye very close to the mirror? Explain what’s happening.
+
+3. Now imagine the following new situation, but don’t actually do it yet. Suppose you lay the mirror face-up on a piece of tissue paper, put your finger 5 or 10 cm or so above the mirror, and look at the image of your finger. As in part 2, you can bring your eye closer and closer to the mirror.
+
+Write down a prediction of what will happen. Will you be able to see the image with your eye very close to the mirror?
+
+Prediction:
+
+Now test your prediction. If your prediction was incorrect, can you explain your results?
+
+4. Lay the mirror on the tissue paper, and use it to create an image of the overhead lights on a piece of paper above it. What do you have to do in order to make the image clear? Can you explain this observation?
+
+5. Now imagine the following experiment, but don’t do it yet. What will happen to the image on the paper if you cover half of the mirror with your hand?
+
+Prediction:
+
+Test your prediction. If your prediction was incorrect, can you explain what happened?
+
+6. Now imagine forming an image with a curved mirror that bulges outward, and that therefore bends light rays away from the central axis. Draw a typical ray diagram. Is the image real or virtual? Will there be more than one type of image?
+
+Prediction:
+
+Test your prediction with the new type of mirror.
+
+73
+
+
+
+Exercise 3A: Object and Image Distances
+
+Equipment:
+
+optical benches inbending mirrors illuminated objects
+
+1. Set up the optical bench with the mirror at zero on the centimeter scale. Set up the illuminated object on the bench as well.
+
+2. Each group will locate the image for their own value of the object distance, by finding where a piece of paper has to be placed in order to see the image on it. Note that you will have to tilt the mirror a little so that the paper on which you project the image doesn’t block the light from the illuminated object.
+
+Is the image real or virtual? How do you know? Draw a ray diagram.
+
+3. Measure the image distance and write your result in the table on the board.
+
+4. What do you notice about the trend of the data on the board? Draw a second ray diagram with a different object distance, and show why this makes sense.
+
+74
+
+
+
+Exercise 4A: How strong are your glasses?
+
+This exercise was created by Dan Maclsaac.
+
+Equipment:
+
+eyeglasses
+
+outbending lenses for students who don’t wear glasses or use inbending glasses rulers and metersticks scratch paper marking pens
+
+Most people who wear glasses have glasses whose lenses are outbending, which allows them to focus on objects far away. Such a lens cannot form a real image, so its focal length cannot be measured as easily as that of an inbending lens. In this exercise you will determine the focal length of your own glasses by taking them off, holding them at a distance from your face, and looking through them at a set of parallel lines on a piece of paper. The lines will be reduced (the lens’s magnification is less than one), and by adjusting the distance between the lens and the paper, you can make the magnification equal 1/2 exactly, so that two spaces between lines as seen through the lens fit into one space as seen simultaneously to the side of the lens. This object distance can be used in order to find the focal length of the lens.
+
+1. Use a marker to draw three evenly spaced parallel lines on the paper. (A spacing of a few cm works well.)
+
+2. Does this technique really measure magnification or does it measure angular magnification? What can you do in your experiment in order to make these two quantities nearly the same, so the math is simpler?
+
+3. Before taking any numerical data, use algebra to find the focal length of the lens in terms of d0, the object distance that results in a magnification of 1/2.
+
+4. Measure the object distance that results in a magnification of 1/2, and determine the focal length of your lens.
+
+75
+
+
+
+Exercise 5: Single-slit diffraction
+
+Equipment:
+
+rulers
+
+computer spreadsheet or computer program for adding sine waves
+
+The following page is a diagram of a single slit and a screen onto which its diffraction pattern is projected. The class will make a numerical prediction of the intensity of the pattern at the different points on the screen. Each group will be responsible for calculating the intensity at one of the points. (Either 11 groups or six will work nicely -- in the latter case, only points a, c, e, g, i, and k are used.) The idea is to break up the wavefront in the mouth of the slit into nine parts, each of which is assumed to radiate semicircular ripples as in Huygens’ principle. The wavelength of the wave is 1 cm, and we assume for simplicity that each set of ripples has an amplitude of 1 unit when it reaches the screen.
+
+1. For simplicity, let’s imagine that we were only to use two sets of ripples rather than nine. You could measure the distance from each of the two points inside the slit to your point on the screen. Suppose the distances were both 25.0 cm. What would be the amplitude of the superimposed waves at this point on the screen?
+
+Suppose one distance was 24.0 cm and the other was 25.0 cm. What would happen?
+
+What if one was 24.0 cm and the other was 26.0 cm?
+
+What if one was 24.5 cm and the other was 25.0 cm?
+
+In general, what combinations of distances will lead to completely destructive and completely constructive interference?
+
+Can you estimate the answer in the case where the distances are 24.7 and 25.0 cm?
+
+2. Although it is possible to calculate mathematically the amplitude of the sine wave that results from superimposing two sine waves with an arbitrary phase difference between them, the algebra is rather laborious, and it become even more tedious when we have more than two waves to superimpose. Instead, one can simply use a computer spreadsheet or some other computer program to add up the sine waves numerically at a series of points covering one complete cycle. This is what we will actually do. You just need to enter the relevant data into the computer, then examine the results and pick off the amplitude from the resulting list of numbers.
+
+3. Measure all nine distances to your group’s point on the screen, and write them on the board - that way everyone can see everyone else’s data, and the class can try to make sense of why the results came out the way they did. Determine the amplitude of the combined wave, and write it on the board as well.
+
+4. Why do you think the intensity at the center came out the way it did? Would it have mattered if we had used 900 sets of ripples rather than 9?
+
+5. Looking at the raw data for the point that had the least intensity, can you see why it came out that way?
+
+6. What do you notice about the width of the central maximum compared to the width of the first side maximum? How is this different from double-slit interference?
+
+7. Although the pattern goes up and down, the general trend is that the farther away we get from the center, the weaker it gets. Why does it make sense that the intensity at some random angle far from the center would tend to be small?
+
+8. Single-slit diffraction can actually be calculated using equations in closed form rather than doing it numerically, and one result is that the intensity of the second maximum is always smaller than the intensity of the central maximum by a factor of 4/9n2. Note that the intensity (in units of watts per unit area) is proportional to the square of the wave’s amplitude. Compare our results with the exact result.
