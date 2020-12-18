@@ -14,7 +14,7 @@ app = Flask(__name__)
      
 @app.route('/') 
 def index(): 
-    sources = [Path(t).stem.replace('.sentiment','') for t in glob.glob('./data/*.csv')] #["bluets", "foucault"] are default; plus any added by user
+    sources = [Path(t).stem.replace('.sentiment','') for t in glob.glob('./websr/data/*.csv')] #["bluets", "foucault"] are default; plus any added by user
     return render_template('index.html', sources=sources) 
      
 @app.route('/square/', methods=['POST']) 
