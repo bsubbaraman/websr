@@ -2,28 +2,23 @@
 <html lang='en'> 
     <head> 
         <title>WeBSR- ABSR for the Web :)</title> 
-        <style type="text/css"> 
-            * { 
-                font-family: sans-serif; 
-            } 
-        </style> 
+        <link rel="stylesheet" href='/static/main.css' />
     </head> 
     <body> 
         <h1>WeBSR- ABSR for the Web :)</h1> 
-        <textarea rows=20 id="area"></textarea>
+        <textarea rows=20 id="inputarea"></textarea>
+
         <form method="post" id="form"> 
-            <!-- <input type="text" id="num" name="number" autofocus autocomplete="off">  -->
             <input type="file" id="fileinput" name="file" autocomplete="off"/>
             <script type="text/javascript">
             function readSingleFile(evt) {
                 //Retrieve the first (and only!) File from the FileList object
                 var f = evt.target.files[0]; 
-            
                 if (f) {
                 var r = new FileReader();
                 r.onload = function(e) { 
                     var contents = e.target.result;
-                    document.getElementById('area').value =  contents;
+                    document.getElementById('inputarea').value =  contents;
                 }
                 r.readAsText(f);
             
@@ -31,58 +26,158 @@
                 alert("Failed to load file");
                 }
             }
-            
             document.getElementById('fileinput').addEventListener('change', readSingleFile, false);
             </script>
+
             <br/><br/>
+
+            <input type="radio" id="1" name="curve" value="1">
+            <label for="1">1</label><br>
+            <input type="radio" id="2" name="curve" value="2">
+            <label for="2">2</label><br>
+            <input type="radio" id="3" name="curve" value="3">
+            <label for="3">3</label><br>
+            <br>
+            <!-- <canvas id="inputCanvas" width="200" height="200"></canvas>
+
+            <br/><br/> -->
+
             <label for="bSubmit"> Source Material: </label>
             {% for source in sources: %}
             <button type="button" name="bSubmit" onclick="submitForm('{{ source }}')" >{{ source }}</button>
             {% endfor %}
             <button type="button" name="bSubmit" onclick="submitForm('NewFile')" >new file</button>
+
+
             <br/><br/>
-            <input type="radio" id="log" name="format" value="log" onclick="formatText('log')">
-            <label for="male">Log</label><br>
+
+            <input type="radio" id="log" name="format" value="log"  onclick="formatText('log')">
+            <label for="log">Log</label><br>
             <input type="radio" id="prose" name="format" value="prose" onclick="formatText('prose')">
-            <label for="female">Prose</label><br>
+            <label for="prose">Prose</label><br>
         </form> 
 
-        <p id="square"></p> 
+        <p id="output"></p> 
+
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
         <script> 
             function submitForm(submittype) {
-                var number = $('#area').val(); 
+                var number = $('#inputarea').val(); 
                 $.ajax({ 
-                    url: 'http://127.0.0.1:5000/square/', 
+                    url: 'http://127.0.0.1:5000/run/', 
                     data: {
                         'number': number,
                         'source': submittype,
                         'filepath': $('#fileinput').val(),
+                        'format': $("input[type='radio'][name='format']:checked").val(),
+                        'curve': $("input[type='radio'][name='curve']:checked").val(),
                     },
                     method: 'POST', 
                     success: function(data) { 
                         $('#fileinput').val(''); 
-                        $('#square').html(data['square']) 
+                        $('#output').html(data['text'])
+                        if (submittype=="NewFile"){
+                            console.log('suhsuh');
+                            alert("got sentiments from " + data['text']);
+                            window.location.reload();
+                        }
                     } 
                 }); 
             }; 
 
             function formatText(format) {
-                var text = document.getElementById('square').innerHTML
+                var text = document.getElementById('output').innerHTML
                 $.ajax({ 
                     url: 'http://127.0.0.1:5000/format/', 
                     data: {
                         'text': text,
-                        'format': format
+                        'format': format,
                         },
                     method: 'POST', 
                     success: function(data) { 
                         $('#fileinput').val(''); 
-                        $('#square').html(data['square']) 
+                        $('#output').html(data['text']) 
                     } 
                 }); 
             }; 
         </script>  
+        <!-- Drawing Canvas -->
+        <!-- <script>
+            $( document ).ready(function() {
+                function createCanvas(parent, width, height) {
+                var canvas = document.getElementById("inputCanvas");
+                canvas.context = canvas.getContext('2d');
+                return canvas;
+                }
+
+                function init(container, width, height, fillColor) {
+                var canvas = createCanvas(container, width, height);
+                var ctx = canvas.context;
+                ctx.fillCircle = function(x, y, radius, fillColor) {
+                this.fillStyle = fillColor;
+                this.beginPath();
+                this.moveTo(x, y);
+                this.arc(x, y, radius, 0, Math.PI * 2, false);
+                this.fill();
+                };
+                ctx.clearTo = function(fillColor) {
+                ctx.fillStyle = fillColor;
+                ctx.fillRect(0, 0, width, height);
+                };
+                ctx.clearTo("#fff");
+
+                canvas.onmousemove = function(e) {
+                if (!canvas.isDrawing) {
+                    return;
+                }
+                var x = e.pageX - this.offsetLeft;
+                var y = e.pageY - this.offsetTop;
+                var radius = 3;
+                var fillColor = 'rgb(102,153,255)';
+                ctx.fillCircle(x, y, radius, fillColor);
+                };
+                canvas.onmousedown = function(e) {
+                canvas.isDrawing = true;
+                };
+                canvas.onmouseup = function(e) {
+                canvas.isDrawing = false;
+                };
+                }
+
+                var container = document.getElementById('canvas');
+                init(container, 200, 200, '#ddd');
+
+                function clearCanvas() {
+                var canvas = document.getElementById("inputCanvas");
+                var ctx = canvas.getContext("2d");
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                }
+
+                function getData() {
+                var canvas = document.getElementById("inputCanvas");
+                var imageData = canvas.context.getImageData(0, 0, canvas.width, canvas.height);
+                var data = imageData.data;
+                var outputData = []
+                for(var i = 0; i < data.length; i += 4) {
+                var brightness = 0.34 * data[i] + 0.5 * data[i + 1] + 0.16 * data[i + 2];
+                outputData.push(brightness);
+                }
+                $.post( "/postmethod", {
+                canvas_data: JSON.stringify(outputData)
+                }, function(err, req, resp){
+                window.location.href = "/results/"+resp["responseJSON"]["uuid"];  
+                });
+                }
+
+                $( "#clearButton" ).click(function(){
+                clearCanvas();
+                });
+
+                $( "#sendButton" ).click(function(){
+                getData();
+                });
+                });
+        </script> -->
     </body> 
 </html> 
 
