@@ -2,14 +2,18 @@
 <html lang='en'> 
     <head> 
         <title>WeBSR- ABSR for the Web :)</title> 
-        <link rel="stylesheet" href='/static/main.css' />
-    </head> 
-    <body> 
-        <h1>WeBSR- ABSR for the Web :)</h1> 
-        <textarea rows=20 id="inputarea"></textarea>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">    </head> 
 
+
+    <body> 
+        <div class="left">
+        <h1>BodyTeller :)</h1> 
+        <textarea rows=20 id="inputarea"></textarea>        
         <form method="post" id="form"> 
-            <input type="file" id="fileinput" name="file" autocomplete="off"/>
+            <label class="button" for="fileinput">Upload File</label>
+            <br><br>
+            <input id="fileinput" type="file" name="file" autocomplete="off">
+            <!-- <input type="file" id="fileinput" name="file" autocomplete="off"/> -->
             <script type="text/javascript">
             function readSingleFile(evt) {
                 //Retrieve the first (and only!) File from the FileList object
@@ -30,7 +34,7 @@
             </script>
 
             <br/><br/>
-
+            <p> Curve: </p>
             <input type="radio" id="1" name="curve" value="1">
             <label for="1">1</label><br>
             <input type="radio" id="2" name="curve" value="2">
@@ -43,6 +47,7 @@
             <br/><br/> -->
 
             <label for="bSubmit"> Source Material: </label>
+            <br>
             {% for source in sources: %}
             <button type="button" name="bSubmit" onclick="submitForm('{{ source }}')" >{{ source }}</button>
             {% endfor %}
@@ -50,14 +55,17 @@
 
 
             <br/><br/>
-
+            <p> Output Format</p>
             <input type="radio" id="log" name="format" value="log"  onclick="formatText('log')">
             <label for="log">Log</label><br>
             <input type="radio" id="prose" name="format" value="prose" onclick="formatText('prose')">
             <label for="prose">Prose</label><br>
         </form> 
-
+    </div>
+        <!-- </div> -->
+        <div class="right">
         <p id="output"></p> 
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
         <script> 

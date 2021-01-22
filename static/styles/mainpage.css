@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+ }
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-LightItalic.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #111111;
+  background-color: #111111;
+}
+
+.left {
+padding: 2em;
+width: 500px;
+padding-right: 40px;
+background-color: #111111;
+height: 90vh;
+overflow: auto;
+}
+
+.right {
+padding: 2em;
+height: 90vh;
+overflow: auto;
+flex-grow: 2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::-moz-selection {
+  color: #111111;
+  background: #eeeeee;
+}
+
+::selection {
+  color: #111111;
+  background: #eeeeee;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

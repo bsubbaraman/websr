@@ -148,4 +148,4 @@ def remap(value, min_i, max_i, min_f, max_f, curve):
         return new_val
 
 if __name__ == '__main__': 
-    	app.run(host='0.0.0.0', debug=True) 
+    app.run(host='0.0.0.0', debug=True) 
